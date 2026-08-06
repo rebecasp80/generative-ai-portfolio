@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot Groq Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .fade-in { animation: fadeIn 0.4s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .avatar-bot { animation: blink 3s infinite; }
+        @keyframes blink { 0%, 90%, 100% { opacity: 1; } 95% { opacity: 0.2; } }
+
+        .avatar-user { animation: bounce 0.6s ease-out; }
+        @keyframes bounce { 0% { transform: translateY(-4px); } 50% { transform: translateY(2px); } 100% { transform: translateY(0); } }
+
+        .bubble {
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body id="body" class="bg-gray-900 text-white transition-all duration-300">
+    <div class="max-w-2xl mx-auto mt-10">
+
+        <div class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold">Chatbot Groq Pro</h1>
+            <button id="themeBtn" class="bg-yellow-500 px-4 py-2 rounded-lg hover:bg-yellow-600 transition">🌙 Oscuro</button>
+        </div>
+
+        <div id="chat" class="bg-gray-800 p-4 rounded-lg h-96 overflow-y-auto mb-4 transition"></div>
+
+        <!-- Personalidad -->
+        <div class="mb-3">
+            <label class="mr-2">Personalidad:</label>
+            <select id="persona" class="bg-gray-700 p-2 rounded">
+                <option value="neutral">Neutral</option>
+                <option value="amable">Amable</option>
+                <option value="profesor">Profesor</option>
+                <option value="tecnico">Técnico</option>
+                <option value="creativo">Creativo</option>
+                <option value="tutor">Tutor de idiomas</option>
+            </select>
+        </div>
+
+        <!-- Idioma -->
+        <div class="mb-3">
+            <label class="mr-2">Idioma:</label>
+            <select id="lang" class="bg-gray-700 p-2 rounded">
+                <option value="es">Español</option>
+                <option value="en">Inglés</option>
+                <option value="fr">Francés</option>
+                <option value="de">Alemán</option>
+                <option value="it">Italiano</option>
+                <option value="hi">Hindi</option>
+            </select>
+        </div>
+
+        <!-- Botones Limpiar + Escuchar -->
+        <div class="flex mb-3 space-x-3">
+            <button onclick="clearChat()" class="bg-red-600 px-4 py-2 rounded-lg hover:bg-red-700">🗑 Limpiar</button>
+            <button onclick="speakText()" class="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700">🔊 Escuchar</button>
+        </div>
+
+        <!-- Entrada + Enviar -->
+        <div class="flex">
+            <input id="prompt" class="flex-1 p-3 rounded-l-lg bg-gray-700 text-white outline-none transition" placeholder="Escribe tu mensaje...">
+            <button onclick="sendMessage()" class="bg-blue-600 px-6 rounded-r-lg hover:bg-blue-700 transition">Enviar</button>
+        </div>
+    </div>
+
+<script>
+/* 🧠 Memoria persistente */
+let chatHistory = JSON.parse(localStorage.getItem("chatHistory") || "[]");
+function saveHistory() { localStorage.setItem("chatHistory", JSON.stringify(chatHistory)); }
+
+/* 🎭 Detección de tono */
+function detectTone(text) {
+    text = text.toLowerCase();
+    if (text.includes("por favor") || text.includes("gracias")) return "amable";
+    if (text.includes("error") || text.includes("no funciona")) return "frustrado";
+    if (text.includes("?")) return "curioso";
+    if (text.length < 10) return "directo";
+    return "neutral";
+}
+
+/* 🌗 Modo claro/oscuro */
+function applyTheme() {
+    const body = document.getElementById("body");
+    const chat = document.getElementById("chat");
+    const themeBtn = document.getElementById("themeBtn");
+
+    if (localStorage.getItem("darkMode") !== "false") {
+        body.classList.remove("bg-white", "text-black");
+        body.classList.add("bg-gray-900", "text-white");
+        chat.classList.add("bg-gray-800");
+        themeBtn.innerText = "🌙 Oscuro";
+    } else {
+        body.classList.remove("bg-gray-900", "text-white");
+        body.classList.add("bg-white", "text-black");
+        chat.classList.remove("bg-gray-800");
+        chat.classList.add("bg-gray-200");
+        themeBtn.innerText = "☀️ Claro";
+    }
+}
+
+document.getElementById("themeBtn").onclick = () => {
+    const current = localStorage.getItem("darkMode");
+    localStorage.setItem("darkMode", current === "false" ? "true" : "false");
+    applyTheme();
+};
+
+applyTheme();
+
+/* 🎨 Avatares + animación */
+function addMessage(text, sender) {
+    const chat = document.getElementById("chat");
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "flex my-3 fade-in " + (sender === "user" ? "justify-end" : "justify-start");
+
+    const bubble = document.createElement("div");
+    bubble.className = "bubble " + (sender === "user"
+        ? "bg-blue-600 p-3 rounded-lg max-w-xs"
+        : "bg-gray-700 p-3 rounded-lg max-w-xs");
+
+    const avatar = document.createElement("div");
+    avatar.className = "w-10 h-10 rounded-full flex items-center justify-center text-xl mr-2";
+
+    if (sender === "user") {
+        avatar.innerText = "🧑";
+        avatar.classList.add("avatar-user");
+        bubble.innerText = text;
+        wrapper.appendChild(bubble);
+    } else {
+        avatar.innerText = "🤖";
+        avatar.classList.add("avatar-bot");
+        wrapper.appendChild(avatar);
+        bubble.innerText = text;
+        wrapper.appendChild(bubble);
+    }
+
+    chat.appendChild(wrapper);
+    chat.scrollTop = chat.scrollHeight;
+
+    return bubble;
+}
+
+/* ✨ Animación de escritura con corrección de espacios */
+function typeText(element, text) {
+    text = text.replace(/\s+/g, " ").trim();
+    const sentences = text.match(/[^.!?]+[.!?]?/g) || [text];
+    let i = 0;
+
+    function showNextSentence() {
+        if (i < sentences.length) {
+            element.innerText += sentences[i].trim() + " ";
+            i++;
+            setTimeout(showNextSentence, 350);
+        }
+    }
+
+    showNextSentence();
+}
+
+/* 🔊 Escuchar última respuesta del bot */
+function speakText() {
+    const lastBotMessage = [...document.querySelectorAll("#chat .bubble")]
+        .filter(b => b.parentElement.classList.contains("justify-start"))
+        .pop();
+
+    if (!lastBotMessage) return;
+
+    const text = lastBotMessage.innerText;
+    const utter = new SpeechSynthesisUtterance(text);
+
+    const lang = document.getElementById("lang").value;
+    utter.lang = lang;
+    utter.rate = 0.95;
+    utter.pitch = 1;
+
+    speechSynthesis.speak(utter);
+}
+
+/* 🗑 Limpiar chat */
+function clearChat() {
+    chatHistory = [];
+    saveHistory();
+    document.getElementById("chat").innerHTML = "";
+}
+
+/* 🔥 Enviar mensaje */
+async function sendMessage() {
+    const prompt = document.getElementById("prompt").value.trim();
+    if (!prompt) return;
+
+    addMessage(prompt, "user");
+    chatHistory.push({ role: "user", content: prompt });
+    saveHistory();
+
+    document.getElementById("prompt").value = "";
+
+    const botBubble = addMessage("", "bot");
+
+    const tone = detectTone(prompt);
+    const persona = document.getElementById("persona").value;
+    const lang = document.getElementById("lang").value;
+
+    try {
+        const response = await fetch("http://127.0.0.1:8000/generate", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ prompt, tone, persona, lang })
+        });
+
+        const data = await response.json();
+        const botText = data.response || "Sin respuesta del servidor.";
+
+        typeText(botBubble, botText);
+
+        chatHistory.push({ role: "assistant", content: botText });
+        saveHistory();
+    } catch (error) {
+        botBubble.innerText = "Error conectando con el servidor.";
+    }
+}
+
+/* 🔄 Cargar historial */
+window.onload = () => {
+    for (const msg of chatHistory) {
+        addMessage(msg.content, msg.role === "user" ? "user" : "bot");
+    }
+};
+</script>
+
+</body>
+</html>
