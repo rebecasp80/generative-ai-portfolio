@@ -20,17 +20,29 @@ Este trabajo forma parte del portafolio profesional de **Ingeniería de IA gener
 ## 📂 Estructura del repositorio
 
 aircraft-damage-captioning/
+
 │
+
 ├── README.md                  # Documentación general del proyecto
+
 ├── LICENSE                    # Licencia MIT
+
 ├── requirements.txt            # Dependencias del entorno
+
 ├── aircraft_damage_classification_and_captioning.ipynb  # Notebook principal
+
 ├── sample_images/              # Imágenes de ejemplo
+
 │   ├── 145_21.jpg
+
 │   ├── 149_22.jpg
+
 │   └── 151_3.jpg
+
 └── results/                    # Resultados generados
+
 ├── caption_example.txt
+
 └── summary_example.txt
 
 ---
