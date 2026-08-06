@@ -1,0 +1,7 @@
+flask
+requests
+watson-nlp
+unittest
+pylint
+ibm-watson
+python-dotenv
