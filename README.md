@@ -1,48 +1,68 @@
 # 🤖 Generative AI portfolio
 
-Colección de **6 aplicaciones funcionales de IA generativa** desarrolladas en Python, centradas en visión por computador, chatbots inteligentes, asistentes de voz, traducción automática, análisis de reuniones y sistemas RAG sobre documentos privados.
+Colección ampliada de aplicaciones funcionales de IA generativa desarrolladas en Python.  
+Incluye proyectos de visión por computador, chatbots inteligentes, asistentes de voz, traducción automática, análisis de reuniones y sistemas RAG sobre documentos privados.
 
-Cada proyecto incluye interfaz web moderna, integración con **Groq** para inferencia acelerada y **LangChain 1.x** para pipelines de IA avanzados.
+Cada módulo integra **Groq** para inferencia acelerada y **LangChain 1.x** para pipelines avanzados de IA.  
+Diseñados con **Flask**, **Gradio** y contenedorización en **Docker**, con despliegue en **IBM Cloud Code Engine**.
 
 ---
 
 ## 🧩 Proyectos incluidos
 
-### 1. 🖼️ Generative AI Vision — Image Captioning
+### 1. 🛩️ **Aircraft Damage Captioning**  
 
-Genera descripciones automáticas de imágenes con BLIP y Hugging Face. Interfaz con Gradio, containerizado con Docker y desplegado en IBM Cloud Code Engine.
+Sistema de captioning para daños en aeronaves usando BLIP y modelos de visión, orientado a inspección visual asistida.  
 
-`Python · BLIP · Gradio · Hugging Face · Docker · IBM Cloud`
+*Python · BLIP · VGG16 · Hugging Face*
 
-### 2. 💬 Chatbot Transformers — Flask + Groq
+2. 🌍 **Babel Voice Assistant**  
 
-Chatbot conversacional con memoria de contexto, modo oscuro e interfaz estilo ChatGPT. Motor Llama-3.1-8B-Instant vía Groq.
+Traductor de voz multilingüe con detección automática de idioma, STT y TTS integrado en interfaz web.  
 
-`Python · Flask · Groq · Llama 3.1 · HTML/CSS/JS`
+*Python · Flask · LangChain · Groq · Web Speech API · HTML/CSS/JS*
 
-### 3. 🎙️ Enterprise Meeting Companion
+3.📄 **Chatbot RAG para PDFs (build-chatbot-for-your-data)**  
 
-Analiza reuniones empresariales con transcripción automática (Whisper) y resumen ejecutivo con Groq Llama 3.1.
+Chatbot que responde preguntas sobre documentos PDF propios usando RAG con LangChain y Groq como motor de inferencia.  
 
-`Python · Gradio · Whisper · Groq · Docker`
+*Python · Flask · LangChain · Groq · RAG*
 
-### 4. 📄 Chatbot RAG para PDFs
+4.💬 **Chatbot Transformers — Flask + Groq**  
 
-Chatbot que responde preguntas sobre documentos PDF propios usando RAG con LangChain y Groq como motor de inferencia.
+Chatbot conversacional con memoria de contexto, modo oscuro e interfaz estilo ChatGPT. Motor Llama-3.1-8B-Instant vía Groq.  
 
-`Python · Flask · LangChain · Groq · RAG`
+*Python · Flask · Groq · Llama 3.1 · HTML/CSS/JS*
 
-### 5. 🌍 Babel Voice Assistant
+5. 🎙️ **Enterprise Meeting Companion**  
 
-Traductor de voz multilingüe con detección automática de idioma, STT y TTS integrado en interfaz web.
+Analiza reuniones empresariales con transcripción automática (Whisper) y resumen ejecutivo con Groq Llama 3.1.  
 
-`Python · Flask · LangChain · Groq · Web Speech API · HTML/CSS/JS`
+*Python · Gradio · Whisper · Groq · Docker*
 
-### 6. 🗣️ Generative AI Voice Assistant
+6.💡 **Generative AI Emotion Flask**  
 
-Asistente de voz conversacional con detección automática de idioma, traducción en tiempo real y síntesis de voz.
+Análisis emocional de texto/voz con Groq + LangChain, orientado a asistentes empáticos y análisis de sentimiento.  
 
-`Python · Flask · LangChain · Groq · HTML/CSS/JS`
+*Python · Flask · LangChain · Groq · Sentiment Analysis*
+
+7.🌐 **Generative AI Multilingual Chatbot**  
+
+Chatbot multilingüe con Groq, LangChain y FastAPI. Traduce, corrige y habla en varios idiomas con voz integrada y tutor de idiomas.  
+
+*Python · FastAPI · LangChain · Groq · HTML/CSS/JS · Web Speech API*
+
+8.🖼️ **Generative AI Vision — Image Captioning**  
+
+Genera descripciones automáticas de imágenes con BLIP y Hugging Face. Interfaz con Gradio, containerizado con Docker y desplegado en IBM Cloud Code Engine.  
+
+*Python · BLIP · Gradio · Hugging Face · Docker · IBM Cloud*
+
+9.🗣️ **Generative AI Voice Assistant**  
+
+Asistente de voz conversacional con detección automática de idioma, traducción en tiempo real y síntesis de voz.  
+
+*Python · Flask · LangChain · Groq · HTML/CSS/JS*
 
 ---
 
@@ -52,13 +72,13 @@ Asistente de voz conversacional con detección automática de idioma, traducció
 
 |---|---|
 
-| Modelos | BLIP · Whisper · Llama 3.1 · Sentence Transformers |
+| Modelos | BLIP · Whisper · Llama 3.1 · Sentence Transformers · VGG16 |
 
 | IA Framework | LangChain 1.x (Runnables) |
 
 | Inferencia | Groq API |
 
-| Backend | Python · Flask · Gradio |
+| Backend | Python · Flask · FastAPI · Gradio |
 
 | Frontend | HTML · CSS · JavaScript · Web Speech API |
 
@@ -78,15 +98,21 @@ generative-ai-apps/
 
 ├── LICENSE
 
-├── generative-ai-vision-python/
+├── aircraft-damage-captioning/
 
-├── chatgpt-transformers/
-
-├── enterprise-meeting-companion/
+├── babel-voice-assistant/
 
 ├── build-chatbot-for-your-data/
 
-├── babel-voice-assistant/
+├── chatbot-transformers/
+
+├── enterprise-meeting-companion/
+
+├── generative-ai-emotion-flask/
+
+├── generative-ai-multilingual-chatbot/
+
+├── generative-ai-vision-python/
 
 └── generative-ai-voice-assistant/
 
