@@ -1,4 +1,4 @@
-# 🤖 Generative AI Apps
+# 🤖 Generative AI portfolio
 
 Colección de **6 aplicaciones funcionales de IA generativa** desarrolladas en Python, centradas en visión por computador, chatbots inteligentes, asistentes de voz, traducción automática, análisis de reuniones y sistemas RAG sobre documentos privados.
 
