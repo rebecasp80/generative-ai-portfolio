@@ -1,0 +1,581 @@
+ein mann geht nach hause    a man is going home
+das mädchen spielt draußen   the girl is playing outside
+ein hund schläft             a dog is sleeping
+ich liebe musik              i love music
+wir gehen zum park           we are going to the park
+ich liebe musik    i love music
+wir gehen zum park    we are going to the park
+das mädchen spielt draußen    the girl is playing outside
+ein hund schläft    a dog is sleeping
+ein mann geht nach hause    a man is going home
+ich esse einen apfel    i am eating an apple
+sie liest ein buch    she is reading a book
+er trinkt wasser    he drinks water
+ich liebe musik    i love music
+wir gehen zum park    we are going to the park
+das mädchen spielt draußen    the girl is playing outside
+ein hund schläft    a dog is sleeping
+ein mann geht nach hause    a man is going home
+ich esse einen apfel    i am eating an apple
+sie liest ein buch    she is reading a book
+er trinkt wasser    he drinks water
+das kind lacht    the child laughs
+die katze läuft schnell    the cat runs fast
+ich sehe den mond    i see the moon
+wir lernen deutsch    we learn german
+sie tanzt sehr gut    she dances very well
+er arbeitet heute    he works today
+ich höre das lied    i hear the song
+das haus ist groß    the house is big
+der baum ist grün    the tree is green
+ich mag schokolade    i like chocolate
+wir spielen fußball    we play football
+sie schreibt einen brief    she writes a letter
+er fährt ein auto    he drives a car
+ich kaufe brot    i buy bread
+das wetter ist schön    the weather is nice
+wir wohnen in berlin    we live in berlin
+sie trägt ein rotes kleid    she wears a red dress
+er schläft tief    he sleeps deeply
+ich öffne die tür    i open the door
+das wasser ist kalt    the water is cold
+wir essen zusammen    we eat together
+sie besucht ihre freunde    she visits her friends
+er liest die zeitung    he reads the newspaper
+ich gehe zur schule    i go to school
+das buch ist interessant    the book is interesting
+wir reisen morgen    we travel tomorrow
+sie singt laut    she sings loudly
+er spielt gitarre    he plays guitar
+ich schreibe einen text    i write a text
+das kind malt ein bild    the child paints a picture
+wir kochen heute abend    we cook tonight
+sie arbeitet im büro    she works in the office
+er rennt schnell    he runs fast
+ich trinke kaffee    i drink coffee
+das auto ist neu    the car is new
+wir sehen einen film    we watch a movie
+sie liest jeden tag    she reads every day
+er spricht englisch    he speaks english
+ich lerne jeden tag    i study every day
+das essen schmeckt gut    the food tastes good
+wir tanzen zusammen    we dance together
+sie kommt aus frankfurt    she comes from frankfurt
+ich brauche mehr zeit    i need more time
+wir warten auf den bus    we are waiting for the bus
+sie erklärt die aufgabe    she explains the task
+er besucht seine familie    he visits his family
+ich finde das interessant    i find that interesting
+das kind sucht seinen ball    the child is looking for its ball
+wir öffnen das fenster    we open the window
+sie trägt eine blaue jacke    she wears a blue jacket
+er beginnt das spiel    he starts the game
+ich erinnere mich daran    i remember that
+das auto fährt sehr schnell    the car drives very fast
+wir planen eine reise    we are planning a trip
+sie kauft frisches gemüse    she buys fresh vegetables
+er repariert das fahrrad    he repairs the bicycle
+ich verliere meinen schlüssel    i lose my key
+das telefon klingelt    the phone is ringing
+wir besuchen das museum    we visit the museum
+sie kocht eine suppe    she cooks a soup
+er sucht seine brille    he is looking for his glasses
+ich verstehe die frage    i understand the question
+das hotel ist sehr teuer    the hotel is very expensive
+wir brauchen eine pause    we need a break
+sie schreibt eine nachricht    she writes a message
+er bringt das paket    he brings the package
+ich folge der anleitung    i follow the instructions
+das licht ist sehr hell    the light is very bright
+wir feiern heute abend    we celebrate tonight
+sie zeigt mir den weg    she shows me the way
+er trägt schwere taschen    he carries heavy bags
+ich bestelle einen kaffee    i order a coffee
+das restaurant ist voll    the restaurant is full
+wir hören die nachrichten    we listen to the news
+sie besucht ihre großeltern    she visits her grandparents
+er öffnet das buch    he opens the book
+ich brauche eine antwort    i need an answer
+das spiel beginnt jetzt    the game starts now
+wir teilen das essen    we share the food
+sie sucht einen neuen job    she is looking for a new job
+er erklärt das problem    he explains the problem
+ich nehme den zug    i take the train
+das flugzeug landet bald    the airplane lands soon
+wir treffen uns morgen    we meet tomorrow
+sie trägt eine tasche    she carries a bag
+er wählt ein geschenk    he chooses a gift
+ich höre ein geräusch    i hear a noise
+das wasser kocht    the water is boiling
+wir besuchen einen freund    we visit a friend
+sie öffnet das fenster    she opens the window
+er schreibt seinen namen    he writes his name
+ich finde meinen platz    i find my seat
+ich glaube, dass er recht hat    i believe that he is right
+wir wissen, dass das wichtig ist    we know that this is important
+sie sagt, dass sie später kommt    she says that she will come later
+er denkt, dass es möglich ist    he thinks that it is possible
+ich hoffe, dass du verstehst    i hope that you understand
+das problem ist, dass wir keine zeit haben    the problem is that we have no time
+wir bleiben zu hause, weil es regnet    we stay at home because it is raining
+sie geht früh schlafen, weil sie müde ist    she goes to bed early because she is tired
+er arbeitet weiter, obwohl er krank ist    he keeps working although he is sick
+ich gehe spazieren, obwohl es kalt ist    i go for a walk although it is cold
+das buch, das ich lese, ist spannend    the book that i am reading is exciting
+der film, den wir gesehen haben, war gut    the movie we watched was good
+die frau, die dort steht, ist meine lehrerin    the woman standing there is my teacher
+das haus, in dem sie wohnen, ist alt    the house they live in is old
+wir fahren los, sobald wir bereit sind    we leave as soon as we are ready
+sie ruft an, sobald sie angekommen ist    she calls as soon as she arrives
+er bleibt hier, bis wir zurückkommen    he stays here until we return
+ich warte, bis du fertig bist    i wait until you are done
+wir essen, nachdem wir gekocht haben    we eat after we have cooked
+sie liest, nachdem sie gearbeitet hat    she reads after she has worked
+er schläft, nachdem er gegessen hat    he sleeps after he has eaten
+ich arbeite, während du schläfst    i work while you sleep
+das kind spielt, während die mutter kocht    the child plays while the mother cooks
+wir lernen, während er fern sieht    we study while he watches tv
+ich weiß nicht, ob das funktioniert    i do not know if this works
+sie fragt, ob wir kommen können    she asks if we can come
+er entscheidet, ob er bleibt    he decides whether he stays
+ich frage mich, warum das passiert ist    i wonder why this happened
+sie erklärt, warum sie gegangen ist    she explains why she left
+er versteht, warum wir warten müssen    he understands why we must wait
+ich erinnere mich, wie wir früher gespielt haben    i remember how we used to play
+sie zeigt mir, wie man das macht    she shows me how to do that
+er sagt mir, wie ich fahren soll    he tells me how i should drive
+ich weiß, wo du wohnst    i know where you live
+sie fragt, wo das restaurant ist    she asks where the restaurant is
+er sagt, wo wir uns treffen    he says where we will meet
+ich frage, wann wir beginnen    i ask when we start
+sie weiß, wann er ankommt    she knows when he arrives
+er sagt, wann wir fertig sind    he says when we are done
+ich weiß, wer das gesagt hat    i know who said that
+sie fragt, wer mitkommt    she asks who is coming
+er sagt, wer verantwortlich ist    he says who is responsible
+ich verstehe, was du meinst    i understand what you mean
+sie erklärt, was passiert ist    she explains what happened
+er fragt, was wir brauchen    he asks what we need
+ich weiß, welches buch du meinst    i know which book you mean
+sie fragt, welches auto besser ist    she asks which car is better
+er sagt, welches essen er mag    he says which food he likes
+wenn ich mehr zeit hätte, würde ich reisen    if i had more time, i would travel
+wenn wir früher gegangen wären, wären wir pünktlich gewesen    if we had left earlier, we would have been on time
+wenn sie fleißiger wäre, hätte sie den test bestanden    if she were more diligent, she would have passed the test
+wenn er gewusst hätte, dass du kommst, hätte er gewartet    if he had known you were coming, he would have waited
+wenn ich geld spare, kann ich mir ein neues handy kaufen    if i save money, i can buy a new phone
+obwohl das wetter schlecht war, hatten wir viel spaß    although the weather was bad, we had a lot of fun
+obwohl er müde war, arbeitete er weiter    although he was tired, he kept working
+obwohl sie wenig zeit hatte, half sie uns    although she had little time, she helped us
+ich würde dir helfen, wenn du mich fragst    i would help you if you ask me
+wir würden bleiben, wenn es nicht so spät wäre    we would stay if it were not so late
+sie hätte angerufen, wenn sie ihr telefon gefunden hätte    she would have called if she had found her phone
+er hätte gewonnen, wenn er schneller gelaufen wäre    he would have won if he had run faster
+ich bin sicher, dass er die wahrheit sagt    i am sure that he is telling the truth
+wir glauben, dass das eine gute idee ist    we believe that this is a good idea
+sie hofft, dass alles gut ausgeht    she hopes that everything turns out well
+er denkt, dass wir mehr üben sollten    he thinks that we should practice more
+ich habe das gefühl, dass etwas nicht stimmt    i have the feeling that something is wrong
+wir haben beschlossen, dass wir morgen fahren    we have decided that we will leave tomorrow
+sie hat gesagt, dass sie später zurückkommt    she said that she will come back later
+er hat erklärt, dass er keine zeit hat    he explained that he has no time
+ich bin froh, dass du hier bist    i am glad that you are here
+wir sind traurig, dass sie gehen muss    we are sad that she has to leave
+sie ist überrascht, dass er gewonnen hat    she is surprised that he won
+er ist enttäuscht, dass wir nicht kommen    he is disappointed that we are not coming
+ich bin sicher, dass wir das schaffen    i am sure that we can do it
+wir sind überzeugt, dass das funktioniert    we are convinced that this works
+sie ist der meinung, dass wir mehr tun sollten    she is of the opinion that we should do more
+er ist der ansicht, dass das falsch ist    he is of the view that this is wrong
+ich habe gehört, dass sie umzieht    i heard that she is moving
+wir haben gesehen, dass er angekommen ist    we saw that he arrived
+sie hat bemerkt, dass etwas fehlt    she noticed that something is missing
+er hat gesagt, dass er später kommt    he said that he will come later
+ich habe vergessen, dass wir heute ein treffen haben    i forgot that we have a meeting today
+wir haben beschlossen, dass wir bleiben    we decided that we will stay
+sie hat erklärt, dass sie keine zeit hat    she explained that she has no time
+er hat erwähnt, dass er krank war    he mentioned that he was sick
+ich habe verstanden, dass du hilfe brauchst    i understood that you need help
+wir haben gelernt, dass geduld wichtig ist    we learned that patience is important
+sie hat gezeigt, dass sie talent hat    she showed that she has talent
+er hat bewiesen, dass er zuverlässig ist    he proved that he is reliable
+ich habe bemerkt, dass du müde bist    i noticed that you are tired
+wir haben gehört, dass das restaurant gut ist    we heard that the restaurant is good
+sie hat gesagt, dass sie morgen frei hat    she said that she has tomorrow off
+er hat erklärt, dass er nicht kommen kann    he explained that he cannot come
+ich habe gesehen, dass du online bist    i saw that you are online
+wir haben festgestellt, dass das problem gelöst ist    we found that the problem is solved
+sie hat erwähnt, dass sie umziehen möchte    she mentioned that she wants to move
+er hat gesagt, dass er später zurückkommt    he said that he will come back later
+ich habe gehört, dass du bestanden hast    i heard that you passed
+wir haben bemerkt, dass es leiser wurde    we noticed that it became quieter
+ich möchte ein ticket nach berlin kaufen    i would like to buy a ticket to berlin
+wir suchen ein günstiges hotel    we are looking for an affordable hotel
+sie fragt, wann der zug ankommt    she asks when the train arrives
+er möchte ein auto mieten    he wants to rent a car
+ich packe meinen koffer für die reise    i pack my suitcase for the trip
+das flugzeug hat eine stunde verspätung    the airplane is delayed by one hour
+wir besuchen berühmte sehenswürdigkeiten    we visit famous sights
+sie möchte ein foto machen    she wants to take a photo
+er fragt nach dem weg zum bahnhof    he asks for the way to the train station
+ich brauche eine karte der stadt    i need a map of the city
+wir arbeiten an einem neuen projekt    we are working on a new project
+sie schreibt eine wichtige e-mail    she writes an important email
+er nimmt an einer konferenz teil    he participates in a conference
+ich bereite eine präsentation vor    i prepare a presentation
+das team trifft sich jeden montag    the team meets every monday
+wir planen die nächsten schritte    we plan the next steps
+sie arbeitet im bereich marketing    she works in marketing
+er sucht eine neue stelle    he is looking for a new position
+ich aktualisiere die datenbank    i update the database
+das meeting beginnt in zehn minuten    the meeting starts in ten minutes
+wir benutzen moderne technologie    we use modern technology
+sie installiert eine neue software    she installs new software
+er lädt die datei herunter    he downloads the file
+ich speichere das dokument    i save the document
+das programm hat einen fehler    the program has an error
+wir verbinden uns mit dem wlan    we connect to the wifi
+sie schickt eine nachricht    she sends a message
+er startet den computer neu    he restarts the computer
+ich aktualisiere mein handy    i update my phone
+die app funktioniert nicht richtig    the app is not working properly
+wir fühlen uns heute sehr glücklich    we feel very happy today
+sie ist traurig, weil sie ihre freunde vermisst    she is sad because she misses her friends
+er ist nervös vor dem interview    he is nervous before the interview
+ich bin stolz auf meine arbeit    i am proud of my work
+das kind ist ängstlich im dunkeln    the child is afraid in the dark
+wir sind begeistert von der idee    we are excited about the idea
+sie ist enttäuscht über das ergebnis    she is disappointed about the result
+er ist wütend, weil etwas schiefging    he is angry because something went wrong
+ich fühle mich heute entspannt    i feel relaxed today
+das team ist motiviert für das projekt    the team is motivated for the project
+wir reisen oft ins ausland    we often travel abroad
+sie arbeitet gerne im team    she likes working in a team
+er benutzt jeden tag seinen laptop    he uses his laptop every day
+ich lade fotos in die cloud hoch    i upload photos to the cloud
+das system wird heute aktualisiert    the system will be updated today
+wir besuchen unsere familie am wochenende    we visit our family on the weekend
+sie plant eine lange reise    she is planning a long trip
+er sucht ein neues hobby    he is looking for a new hobby
+ich genieße die ruhe am morgen    i enjoy the quiet in the morning
+ich brauche eine neue tasche    i need a new bag
+wir fahren morgen nach hamburg    we are going to hamburg tomorrow
+sie besucht jeden freitag ihre oma    she visits her grandma every friday
+er repariert den alten computer    he repairs the old computer
+ich suche meine kopfhörer    i am looking for my headphones
+das kind baut einen turm    the child builds a tower
+wir essen heute pasta    we are eating pasta today
+sie trägt eine warme jacke    she is wearing a warm jacket
+er findet den schlüssel nicht    he cannot find the key
+ich öffne das fenster, weil es heiß ist    i open the window because it is hot
+das auto braucht benzin    the car needs gasoline
+wir spielen ein neues spiel    we are playing a new game
+sie malt ein schönes bild    she paints a beautiful picture
+er kauft frisches obst    he buys fresh fruit
+ich schreibe eine kurze nachricht    i write a short message
+das telefon ist sehr laut    the phone is very loud
+wir besuchen morgen unsere freunde    we visit our friends tomorrow
+sie kocht heute abend nudeln    she cooks pasta tonight
+er liest ein interessantes magazin    he reads an interesting magazine
+ich trinke jeden morgen tee    i drink tea every morning
+das haus hat einen großen garten    the house has a big garden
+wir hören musik im auto    we listen to music in the car
+sie trägt eine schwarze hose    she is wearing black pants
+er arbeitet jeden tag bis sechs    he works every day until six
+ich brauche eine pause vom lernen    i need a break from studying
+das kind spielt mit dem hund    the child plays with the dog
+wir gehen heute einkaufen    we are going shopping today
+sie sucht ein neues buch    she is looking for a new book
+er fährt jeden tag mit dem fahrrad    he rides his bike every day
+ich mag warme sommerabende    i like warm summer evenings
+das wasser ist sehr klar    the water is very clear
+wir besuchen das neue café    we visit the new café
+sie trägt eine kleine tasche    she carries a small bag
+er öffnet die tür langsam    he opens the door slowly
+ich höre ein seltsames geräusch    i hear a strange noise
+das kind lernt schnell    the child learns quickly
+wir planen ein großes fest    we are planning a big celebration
+sie kauft eine blaue tasse    she buys a blue cup
+er sucht eine ruhige straße    he is looking for a quiet street
+ich finde den film langweilig    i find the movie boring
+das restaurant hat gutes essen    the restaurant has good food
+wir gehen heute früh schlafen    we go to bed early today
+sie trägt eine neue brille    she wears new glasses
+er spielt jeden tag klavier    he plays piano every day
+ich brauche eine neue lampe    i need a new lamp
+das kind isst gerne bananen    the child likes eating bananas
+wir fahren am wochenende ans meer    we go to the sea on the weekend
+sie sucht ihre schlüssel überall    she is looking for her keys everywhere
+er liest gerne lange bücher    he likes reading long books
+ich trinke heute keinen kaffee    i am not drinking coffee today
+ich brauche eine neue tastatur    i need a new keyboard
+wir besuchen heute meine schwester    we are visiting my sister today
+sie trägt eine elegante jacke    she is wearing an elegant jacket
+er sucht einen ruhigen platz    he is looking for a quiet place
+ich finde den film sehr spannend    i find the movie very exciting
+das kind spielt mit bausteinen    the child plays with building blocks
+wir essen heute fisch    we are eating fish today
+sie malt ein großes bild    she paints a large picture
+er kauft ein neues buch    he buys a new book
+ich schreibe eine lange e-mail    i write a long email
+das telefon ist kaputt    the phone is broken
+wir besuchen das alte museum    we visit the old museum
+sie kocht eine leckere suppe    she cooks a delicious soup
+er liest ein historisches buch    he reads a historical book
+ich trinke jeden abend tee    i drink tea every evening
+das haus hat viele fenster    the house has many windows
+wir hören musik beim arbeiten    we listen to music while working
+sie trägt eine grüne jacke    she wears a green jacket
+er arbeitet jeden tag hart    he works hard every day
+ich brauche eine kurze pause    i need a short break
+das kind spielt mit puppen    the child plays with dolls
+wir gehen heute ins kino    we are going to the cinema today
+sie sucht ein neues hobby    she is looking for a new hobby
+er fährt jeden tag bus    he takes the bus every day
+ich mag kalte wintertage    i like cold winter days
+das wasser ist sehr warm    the water is very warm
+wir besuchen das neue restaurant    we visit the new restaurant
+sie trägt eine kleine uhr    she wears a small watch
+er öffnet das fenster schnell    he opens the window quickly
+ich höre ein leises geräusch    i hear a quiet noise
+das kind lernt jeden tag    the child learns every day
+wir planen eine kleine feier    we are planning a small celebration
+sie kauft eine rote tasse    she buys a red cup
+er sucht eine gute idee    he is looking for a good idea
+ich finde den text schwierig    i find the text difficult
+das restaurant hat viele gäste    the restaurant has many guests
+wir gehen heute spät schlafen    we go to bed late today
+sie trägt eine neue hose    she wears new pants
+er spielt jeden tag trompete    he plays trumpet every day
+ich brauche eine neue decke    i need a new blanket
+das kind isst gerne äpfel    the child likes eating apples
+wir fahren am montag in die stadt    we go to the city on monday
+sie sucht ihre brieftasche    she is looking for her wallet
+er liest gerne kurze geschichten    he likes reading short stories
+ich trinke heute wasser    i am drinking water today
+das auto ist sehr alt    the car is very old
+wir sehen heute einen dokumentarfilm    we watch a documentary today
+sie liest jeden morgen    she reads every morning
+er spricht französisch    he speaks french
+ich lerne heute etwas neues    i am learning something new today
+ich brauche eine neue jacke    i need a new jacket
+wir fahren nächste woche nach münchen    we are going to munich next week
+sie besucht ihre freunde am abend    she visits her friends in the evening
+er repariert den alten stuhl    he repairs the old chair
+ich suche meine brille    i am looking for my glasses
+das kind baut ein haus aus lego    the child builds a house from lego
+wir essen heute salat    we are eating salad today
+sie trägt eine warme mütze    she is wearing a warm hat
+er findet das buch interessant    he finds the book interesting
+ich öffne die tür für dich    i open the door for you
+das auto braucht eine reparatur    the car needs a repair
+wir spielen ein kartenspiel    we are playing a card game
+sie malt ein kleines bild    she paints a small picture
+er kauft frisches brot    he buys fresh bread
+ich schreibe eine kurze notiz    i write a short note
+das telefon ist sehr alt    the phone is very old
+wir besuchen morgen meine eltern    we visit my parents tomorrow
+sie kocht heute reis    she cooks rice today
+er liest ein wissenschaftliches buch    he reads a scientific book
+ich trinke jeden morgen kaffee    i drink coffee every morning
+das haus hat einen balkon    the house has a balcony
+wir hören musik beim kochen    we listen to music while cooking
+sie trägt eine gelbe jacke    she wears a yellow jacket
+er arbeitet jeden tag draußen    he works outside every day
+ich brauche eine pause vom laufen    i need a break from running
+das kind spielt mit autos    the child plays with cars
+wir gehen heute spazieren    we are going for a walk today
+sie sucht ein neues restaurant    she is looking for a new restaurant
+er fährt jeden tag zug    he takes the train every day
+ich mag warme frühlingstage    i like warm spring days
+das wasser ist sehr tief    the water is very deep
+wir besuchen das alte café    we visit the old café
+sie trägt eine große tasche    she carries a large bag
+er öffnet die tür leise    he opens the door quietly
+ich höre ein starkes geräusch    i hear a loud noise
+das kind lernt neue wörter    the child learns new words
+wir planen eine große reise    we are planning a big trip
+sie kauft eine grüne tasse    she buys a green cup
+er sucht eine neue wohnung    he is looking for a new apartment
+ich finde den film lustig    i find the movie funny
+das restaurant hat viele speisen    the restaurant has many dishes
+wir gehen heute früh joggen    we go jogging early today
+sie trägt eine neue jacke    she wears a new jacket
+er spielt jeden tag schach    he plays chess every day
+ich brauche eine neue tasche    i need a new bag
+das kind isst gerne trauben    the child likes eating grapes
+wir fahren am freitag ans meer    we go to the sea on friday
+sie sucht ihre schuhe    she is looking for her shoes
+er liest gerne lange romane    he likes reading long novels
+ich trinke heute tee    i am drinking tea today
+ich brauche einen neuen kalender    i need a new calendar
+wir fahren morgen nach köln    we are going to cologne tomorrow
+sie besucht ihre cousine am wochenende    she visits her cousin on the weekend
+er repariert den alten tisch    he repairs the old table
+ich suche meine tasche    i am looking for my bag
+das kind baut einen turm aus holz    the child builds a tower from wood
+wir essen heute suppe    we are eating soup today
+sie trägt eine warme jacke    she is wearing a warm jacket
+er findet den artikel interessant    he finds the article interesting
+ich öffne die tür langsam    i open the door slowly
+das auto braucht neue reifen    the car needs new tires
+wir spielen ein brettspiel    we are playing a board game
+sie malt ein buntes bild    she paints a colorful picture
+er kauft frisches gemüse    he buys fresh vegetables
+ich schreibe eine lange nachricht    i write a long message
+das telefon ist sehr modern    the phone is very modern
+wir besuchen morgen meine tante    we visit my aunt tomorrow
+sie kocht heute kartoffeln    she cooks potatoes today
+er liest ein technisches buch    he reads a technical book
+ich trinke jeden abend wasser    i drink water every evening
+das haus hat einen großen keller    the house has a large basement
+wir hören musik beim lesen    we listen to music while reading
+sie trägt eine rote jacke    she wears a red jacket
+er arbeitet jeden tag im büro    he works in the office every day
+ich brauche eine pause vom arbeiten    i need a break from working
+das kind spielt mit würfeln    the child plays with blocks
+wir gehen heute ins theater    we are going to the theater today
+sie sucht ein neues café    she is looking for a new café
+er fährt jeden tag auto    he drives a car every day
+ich mag kalte herbsttage    i like cold autumn days
+das wasser ist sehr sauber    the water is very clean
+wir besuchen das neue museum    we visit the new museum
+sie trägt eine kleine uhr    she wears a small watch
+er öffnet das fenster leise    he opens the window quietly
+ich höre ein tiefes geräusch    i hear a deep noise
+das kind lernt jeden tag etwas neues    the child learns something new every day
+wir planen eine kleine reise    we are planning a small trip
+sie kauft eine weiße tasse    she buys a white cup
+er sucht eine gute lösung    he is looking for a good solution
+ich finde den text interessant    i find the text interesting
+das restaurant hat viele getränke    the restaurant has many drinks
+wir gehen heute spät joggen    we go jogging late today
+sie trägt eine neue mütze    she wears a new hat
+er spielt jeden tag geige    he plays violin every day
+ich brauche eine neue decke    i need a new blanket
+das kind isst gerne birnen    the child likes eating pears
+wir fahren am dienstag in die stadt    we go to the city on tuesday
+sie sucht ihre tasche überall    she is looking for her bag everywhere
+er liest gerne kurze artikel    he likes reading short articles
+ich trinke heute saft    i am drinking juice today
+ich brauche einen neuen stift    i need a new pen
+wir fahren nächste woche nach stuttgart    we are going to stuttgart next week
+sie besucht ihre freunde am morgen    she visits her friends in the morning
+er repariert den alten schrank    he repairs the old cabinet
+ich suche meine schuhe    i am looking for my shoes
+das kind baut ein schiff aus lego    the child builds a ship from lego
+wir essen heute pizza    we are eating pizza today
+sie trägt eine warme hose    she is wearing warm pants
+er findet den bericht interessant    he finds the report interesting
+ich öffne die tür für meine freundin    i open the door for my friend
+das auto braucht eine inspektion    the car needs an inspection
+wir spielen ein videospiel    we are playing a video game
+sie malt ein helles bild    she paints a bright picture
+er kauft frisches fleisch    he buys fresh meat
+ich schreibe eine kurze erinnerung    i write a short reminder
+das telefon ist sehr leise    the phone is very quiet
+wir besuchen morgen meine großeltern    we visit my grandparents tomorrow
+sie kocht heute gemüse    she cooks vegetables today
+er liest ein politisches buch    he reads a political book
+ich trinke jeden morgen milch    i drink milk every morning
+das haus hat einen großen gartenzaun    the house has a large garden fence
+wir hören musik beim sport    we listen to music while exercising
+sie trägt eine braune jacke    she wears a brown jacket
+er arbeitet jeden tag im lager    he works in the warehouse every day
+ich brauche eine pause vom schreiben    i need a break from writing
+das kind spielt mit figuren    the child plays with figurines
+wir gehen heute in den park    we are going to the park today
+sie sucht ein neues geschäft    she is looking for a new store
+er fährt jeden tag roller    he rides a scooter every day
+ich mag warme herbstabende    i like warm autumn evenings
+das wasser ist sehr frisch    the water is very fresh
+wir besuchen das neue theater    we visit the new theater
+sie trägt eine kleine kette    she wears a small necklace
+er öffnet die tür vorsichtig    he opens the door carefully
+ich höre ein hohes geräusch    i hear a high noise
+das kind lernt neue zahlen    the child learns new numbers
+wir planen eine lange reise    we are planning a long trip
+sie kauft eine schwarze tasse    she buys a black cup
+er sucht eine neue idee    he is looking for a new idea
+ich finde den film emotional    i find the movie emotional
+das restaurant hat viele desserts    the restaurant has many desserts
+wir gehen heute früh joggen    we go jogging early today
+sie trägt eine neue jacke mit kapuze    she wears a new jacket with a hood
+er spielt jeden tag flöte    he plays flute every day
+ich brauche eine neue matratze    i need a new mattress
+das kind isst gerne pfirsiche    the child likes eating peaches
+wir fahren am mittwoch ans meer    we go to the sea on wednesday
+sie sucht ihre uhr überall    she is looking for her watch everywhere
+er liest gerne lange artikel    he likes reading long articles
+ich trinke heute kakao    i am drinking cocoa today
+ich brauche einen neuen rucksack    i need a new backpack
+wir fahren morgen nach düsseldorf    we are going to düsseldorf tomorrow
+sie besucht ihre schwester am nachmittag    she visits her sister in the afternoon
+er repariert den alten spiegel    he repairs the old mirror
+ich suche meine jacke    i am looking for my jacket
+das kind baut eine burg aus lego    the child builds a castle from lego
+wir essen heute obstsalat    we are eating fruit salad today
+sie trägt eine warme bluse    she is wearing a warm blouse
+er findet den text sehr gut    he finds the text very good
+ich öffne die tür für meinen bruder    i open the door for my brother
+das auto braucht eine neue batterie    the car needs a new battery
+wir spielen ein musikspiel    we are playing a music game
+sie malt ein dunkles bild    she paints a dark picture
+er kauft frische eier    he buys fresh eggs
+ich schreibe eine kurze liste    i write a short list
+das telefon ist sehr schnell    the phone is very fast
+wir besuchen morgen meine freunde    we visit my friends tomorrow
+sie kocht heute pasta    she cooks pasta today
+er liest ein philosophisches buch    he reads a philosophical book
+ich trinke jeden abend tee    i drink tea every evening
+das haus hat einen großen eingang    the house has a large entrance
+wir hören musik beim putzen    we listen to music while cleaning
+sie trägt eine graue jacke    she wears a gray jacket
+er arbeitet jeden tag im garten    he works in the garden every day
+ich brauche eine pause vom lesen    i need a break from reading
+das kind spielt mit klötzen    the child plays with blocks
+wir gehen heute ins café    we are going to the café today
+sie sucht ein neues hotel    she is looking for a new hotel
+er fährt jeden tag motorrad    he rides a motorcycle every day
+ich mag warme winterabende    i like warm winter evenings
+das wasser ist sehr klar und kalt    the water is very clear and cold
+wir besuchen das neue kino    we visit the new cinema
+sie trägt eine kleine tasche mit muster    she wears a small patterned bag
+er öffnet das fenster vorsichtig    he opens the window carefully
+ich höre ein rhythmisches geräusch    i hear a rhythmic noise
+das kind lernt neue formen    the child learns new shapes
+wir planen eine reise nach spanien    we are planning a trip to spain
+sie kauft eine gelbe tasse    she buys a yellow cup
+er sucht eine kreative lösung    he is looking for a creative solution
+ich finde den text poetisch    i find the text poetic
+das restaurant hat viele vorspeisen    the restaurant has many appetizers
+wir gehen heute spät spazieren    we go for a walk late today
+sie trägt eine neue jacke mit fell    she wears a new jacket with fur
+er spielt jeden tag trommel    he plays drums every day
+ich brauche eine neue decke für das bett    i need a new blanket for the bed
+das kind isst gerne mandarinen    the child likes eating mandarins
+wir fahren am donnerstag in die stadt    we go to the city on thursday
+sie sucht ihre tasche im auto    she is looking for her bag in the car
+er liest gerne kurze essays    he likes reading short essays
+ich trinke heute limonade    i am drinking lemonade today
+ich brauche einen neuen schal    i need a new scarf
+wir fahren nächste woche nach hannover    we are going to hannover next week
+sie besucht ihre tante am morgen    she visits her aunt in the morning
+er repariert den alten koffer    he repairs the old suitcase
+ich suche meine socken    i am looking for my socks
+das kind baut ein auto aus lego    the child builds a car from lego
+wir essen heute gemüsesuppe    we are eating vegetable soup today
+sie trägt eine warme jacke mit reißverschluss    she is wearing a warm jacket with a zipper
+er findet den artikel sehr spannend    he finds the article very exciting
+ich öffne die tür für meinen freund    i open the door for my friend
+das auto braucht eine neue lampe    the car needs a new lamp
+wir spielen ein strategiespiel    we are playing a strategy game
+sie malt ein abstraktes bild    she paints an abstract picture
+er kauft frische tomaten    he buys fresh tomatoes
+ich schreibe eine kurze erinnerungsliste    i write a short reminder list
+das telefon ist sehr modern und schnell    the phone is very modern and fast
+wir besuchen morgen meine schwester    we visit my sister tomorrow
+sie kocht heute fisch    she cooks fish today
+er liest ein psychologisches buch    he reads a psychology book
+ich trinke jeden morgen wasser    i drink water every morning
+das haus hat einen großen balkon mit auss
