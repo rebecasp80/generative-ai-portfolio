@@ -64,6 +64,12 @@ Asistente de voz conversacional con detección automática de idioma, traducció
 
 *Python · Flask · LangChain · Groq · HTML/CSS/JS*
 
+10. 🔤 **Generative AI Seq2Seq Translator (German → English)**  
+
+Modelo de traducción automática Seq2Seq con arquitectura Encoder-Decoder (GRU) entrenado desde cero en PyTorch. Incluye pipeline completo de NLP, tokenización y vocabulario propio, evaluación BLEU e interfaz interactiva en Gradio.  
+
+*Python · PyTorch · GRU · Gradio · BLEU · NLP*
+
 ---
 
 ## 🚀 Stack tecnológico
@@ -72,11 +78,11 @@ Asistente de voz conversacional con detección automática de idioma, traducció
 
 |---|---|
 
-| Modelos | BLIP · Whisper · Llama 3.1 · Sentence Transformers · VGG16 |
+| Modelos | BLIP · Whisper · Llama 3.1 · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
 
-| IA Framework | LangChain 1.x (Runnables) |
+| IA Framework | LangChain 1.x (Runnables) · PyTorch |
 
-| Inferencia | Groq API |
+| Inferencia | Groq API · PyTorch Engine |
 
 | Backend | Python · Flask · FastAPI · Gradio |
 
@@ -111,6 +117,8 @@ generative-ai-apps/
 ├── generative-ai-emotion-flask/
 
 ├── generative-ai-multilingual-chatbot/
+
+├── generative-ai-seq2seq-translator/
 
 ├── generative-ai-vision-python/
 
