@@ -16,55 +16,55 @@ Sistema de captioning para daños en aeronaves usando BLIP y modelos de visión,
 
 *Python · BLIP · VGG16 · Hugging Face*
 
-2. 🌍 **Babel Voice Assistant**  
+### 2. 🌍 **Babel Voice Assistant**  
 
 Traductor de voz multilingüe con detección automática de idioma, STT y TTS integrado en interfaz web.  
 
 *Python · Flask · LangChain · Groq · Web Speech API · HTML/CSS/JS*
 
-3.📄 **Chatbot RAG para PDFs (build-chatbot-for-your-data)**  
+### 3. 📄 **Chatbot RAG para PDFs (build-chatbot-for-your-data)**  
 
 Chatbot que responde preguntas sobre documentos PDF propios usando RAG con LangChain y Groq como motor de inferencia.  
 
 *Python · Flask · LangChain · Groq · RAG*
 
-4.💬 **Chatbot Transformers — Flask + Groq**  
+### 4. 💬 **Chatbot Transformers — Flask + Groq**  
 
 Chatbot conversacional con memoria de contexto, modo oscuro e interfaz estilo ChatGPT. Motor Llama-3.1-8B-Instant vía Groq.  
 
 *Python · Flask · Groq · Llama 3.1 · HTML/CSS/JS*
 
-5.🎙️ **Enterprise Meeting Companion**  
+### 5. 🎙️ **Enterprise Meeting Companion**  
 
 Analiza reuniones empresariales con transcripción automática (Whisper) y resumen ejecutivo con Groq Llama 3.1.  
 
 *Python · Gradio · Whisper · Groq · Docker*
 
-6.💡 **Generative AI Emotion Flask
+### 6. 💡 **Generative AI Emotion Flask**
 
 Análisis emocional de texto con BERT (Transformers) y Flask. Incluye preprocesado NLP, API REST, pruebas unitarias y arquitectura modular orientada a asistentes empáticos y análisis de sentimiento.
 
 *Python · Flask · Transformers · PyTorch · Sentiment Analysis*
 
-7.🌐 **Generative AI Multilingual Chatbot**  
+### 7. 🌐 **Generative AI Multilingual Chatbot**  
 
 Chatbot multilingüe con Groq, LangChain y FastAPI. Traduce, corrige y habla en varios idiomas con voz integrada y tutor de idiomas.  
 
 *Python · FastAPI · LangChain · Groq · HTML/CSS/JS · Web Speech API*
 
-8.🖼️ **Generative AI Vision — Image Captioning**  
+### 8. 🖼️ **Generative AI Vision — Image Captioning**  
 
 Genera descripciones automáticas de imágenes con BLIP y Hugging Face. Interfaz con Gradio, containerizado con Docker y desplegado en IBM Cloud Code Engine.  
 
 *Python · BLIP · Gradio · Hugging Face · Docker · IBM Cloud*
 
-9.🗣️ **Generative AI Voice Assistant**  
+### 9. 🗣️ **Generative AI Voice Assistant**  
 
 Asistente de voz conversacional con detección automática de idioma, traducción en tiempo real y síntesis de voz.  
 
 *Python · Flask · LangChain · Groq · HTML/CSS/JS*
 
-10. 🔤 **Generative AI Seq2Seq Translator (German → English)**  
+### 10. 🔤 **Generative AI Seq2Seq Translator (German → English)**  
 
 Modelo de traducción automática Seq2Seq con arquitectura Encoder-Decoder (GRU) entrenado desde cero en PyTorch. Incluye pipeline completo de NLP, tokenización y vocabulario propio, evaluación BLEU e interfaz interactiva en Gradio.  
 
