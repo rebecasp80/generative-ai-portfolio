@@ -37,23 +37,39 @@ La aplicación expone un endpoint web mediante **Flask**, incluye **pruebas unit
 ## 📁 Estructura del Proyecto
 
 EmotionDetection/
+
     __init__.py
+    
     bert_emotion_model.py
+    
     preprocess.py
+    
     utils.py
+
 app/
+
     __init__.py
+    
     routes.py
+    
     templates/
+
 tests/
+
     __init__.py
+    
     test_emotion_detection.py
+    
     test_api.py
-docs/
-    tareas y documentación del desarrollo
+
+docs/            tareas y documentación del desarrollo
+
 server.py
+
 requirements.txt
+
 README.md
+
 LICENSE
 
 ---
