@@ -17,19 +17,33 @@ La interfaz está construida con **Gradio**, y el proyecto está completamente *
 ## 📂 Estructura del proyecto
 
 generative-ai-vision-python/
+
 │
+
 ├── src/
+
 │   ├── screenshots/
+
 │   │   ├── app_running.png
+
 │   │   └── app_interface_demo.png
+
 │   ├── blip_caption.py
+
 │   └── image_captioning_app.py
+
 │
+
 ├── images/
+
 │   └── ejemplo.jpg
+
 ├── notebooks/
+
 ├── Dockerfile
+
 ├── requirements.txt
+
 └── README.md
 
 ---
