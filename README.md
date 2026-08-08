@@ -34,17 +34,17 @@ Chatbot conversacional con memoria de contexto, modo oscuro e interfaz estilo Ch
 
 *Python · Flask · Groq · Llama 3.1 · HTML/CSS/JS*
 
-5. 🎙️ **Enterprise Meeting Companion**  
+5.🎙️ **Enterprise Meeting Companion**  
 
 Analiza reuniones empresariales con transcripción automática (Whisper) y resumen ejecutivo con Groq Llama 3.1.  
 
 *Python · Gradio · Whisper · Groq · Docker*
 
-6.💡 **Generative AI Emotion Flask**  
+6.💡 **Generative AI Emotion Flask
 
-Análisis emocional de texto/voz con Groq + LangChain, orientado a asistentes empáticos y análisis de sentimiento.  
+Análisis emocional de texto con BERT (Transformers) y Flask. Incluye preprocesado NLP, API REST, pruebas unitarias y arquitectura modular orientada a asistentes empáticos y análisis de sentimiento.
 
-*Python · Flask · LangChain · Groq · Sentiment Analysis*
+*Python · Flask · Transformers · PyTorch · Sentiment Analysis*
 
 7.🌐 **Generative AI Multilingual Chatbot**  
 
