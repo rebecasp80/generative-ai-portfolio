@@ -16,7 +16,6 @@ La interfaz está construida con **Gradio**, y el proyecto está completamente *
 
 ## 📂 Estructura del proyecto
 
-```text
 generative-ai-vision-python/
 │
 ├── src/
