@@ -1,0 +1,121 @@
+theia@theiadocker-rebesotopita:/home/project/final_project$ python3 -m unittest test_emotion_detection.py
+FFFFF
+======================================================================
+FAIL: test_anger (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 9, in test_anger
+    self.assertEqual(emotion_detector("Estoy realmente enojado por esto")['dominant_emotion'], 'anger')
+AssertionError: 'joy' != 'anger'
+- joy
++ anger
+
+
+======================================================================
+FAIL: test_disgust (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 12, in test_disgust
+    self.assertEqual(emotion_detector("Me siento disgustado solo de escuchar sobre esto")['dominant_emotion'], 'disgust')
+AssertionError: 'joy' != 'disgust'
+- joy
++ disgust
+
+
+======================================================================
+FAIL: test_fear (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 18, in test_fear
+    self.assertEqual(emotion_detector("Tengo mucho miedo de que esto suceda")['dominant_emotion'], 'fear')
+AssertionError: 'joy' != 'fear'
+- joy
++ fear
+
+
+======================================================================
+FAIL: test_joy (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 6, in test_joy
+    self.assertEqual(emotion_detector("Me alegra que esto haya sucedido")['dominant_emotion'], 'joy')
+AssertionError: 'sadness' != 'joy'
+- sadness
++ joy
+
+
+======================================================================
+FAIL: test_sadness (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 15, in test_sadness
+    self.assertEqual(emotion_detector("Estoy tan triste por esto")['dominant_emotion'], 'sadness')
+AssertionError: 'joy' != 'sadness'
+- joy
++ sadness
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.593s
+
+FAILED (failures=5)theia@theiadocker-rebesotopita:/home/project/final_project$ python3 -m unittest test_emotion_detection.py
+FFFFF
+======================================================================
+FAIL: test_anger (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 9, in test_anger
+    self.assertEqual(emotion_detector("Estoy realmente enojado por esto")['dominant_emotion'], 'anger')
+AssertionError: 'joy' != 'anger'
+- joy
++ anger
+
+
+======================================================================
+FAIL: test_disgust (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 12, in test_disgust
+    self.assertEqual(emotion_detector("Me siento disgustado solo de escuchar sobre esto")['dominant_emotion'], 'disgust')
+AssertionError: 'joy' != 'disgust'
+- joy
++ disgust
+
+
+======================================================================
+FAIL: test_fear (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 18, in test_fear
+    self.assertEqual(emotion_detector("Tengo mucho miedo de que esto suceda")['dominant_emotion'], 'fear')
+AssertionError: 'joy' != 'fear'
+- joy
++ fear
+
+
+======================================================================
+FAIL: test_joy (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 6, in test_joy
+    self.assertEqual(emotion_detector("Me alegra que esto haya sucedido")['dominant_emotion'], 'joy')
+AssertionError: 'sadness' != 'joy'
+- sadness
++ joy
+
+
+======================================================================
+FAIL: test_sadness (test_emotion_detection.TestEmotionDetection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/project/final_project/test_emotion_detection.py", line 15, in test_sadness
+    self.assertEqual(emotion_detector("Estoy tan triste por esto")['dominant_emotion'], 'sadness')
+AssertionError: 'joy' != 'sadness'
+- joy
++ sadness
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.593s
+
+FAILED (failures=5)
