@@ -66,42 +66,79 @@ La aplicación expone un endpoint web mediante **Flask**, incluye **pruebas unit
 ## 📁 Estructura del Proyecto
 
 generative-ai-emotion-flask/
+
 │
+
 ├── app/
+
 │   ├── init.py
+
 │   ├── routes.py
+
 │   └── templates/
+
 │       └── index.html   ← Interfaz moderna
+
 │
+
 ├── EmotionDetection/
+
 │   ├── init.py
+
 │   ├── bert_emotion_model.py   ← Carga Base / LoRA / QLoRA / Adapter
+
 │   ├── preprocess.py
+
 │   └── utils.py
+
 │
+
 ├── training/
+
 │   ├── train_lora.py
+
 │   ├── train_qlora.py
+
 │   ├── train_adapter.py
+
 │   └── evaluate_models.py
+
 │
+
 ├── models/
+
 │   ├── base/
+
 │   ├── lora/
+
 │   ├── qlora/
+
 │   └── adapter/
+
 │
+
 ├── data/
+
 │   └── emotions.csv
+
 │
+
 ├── tests/
+
 │   ├── test_api.py
+
 │   └── test_emotion_detection.py
+
 │
+
 ├── license
+
 ├── .gitignore
+
 ├── server.py
+
 ├── requirements.txt
+
 └── README.md
 
 ---
@@ -135,8 +172,11 @@ python training/train_lora.py
 Genera:
 
 models/lora/
+
  ├── adapter_config.json
+ 
  ├── adapter_model.bin
+ 
  └── training_args.bin
 
 ✔ QLoRA
@@ -146,8 +186,11 @@ python training/train_qlora.py
 Genera:
 
 models/qlora/
+
  ├── adapter_config.json
+ 
  ├── adapter_model.bin
+ 
  └── training_args.bin
 
 ✔ Adapter Pfeiffer
@@ -157,7 +200,9 @@ python training/train_adapter.py
 Genera:
 
 models/adapter/
+ 
  ├── emotion_adapter/
+ 
  └── adapter_config.json
 
 ---
