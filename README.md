@@ -1,96 +1,87 @@
 # 🤖 Generative AI portfolio
 
-Colección ampliada de aplicaciones funcionales de IA generativa desarrolladas en Python.  
-Incluye proyectos de visión por computador, chatbots inteligentes, asistentes de voz, traducción automática, análisis de reuniones y sistemas RAG sobre documentos privados.
+Colección profesional de 10 aplicaciones funcionales de IA Generativa, Procesamiento del Lenguaje Natural (NLP) y Deep Learning desarrolladas en Python.
 
-Cada módulo integra **Groq** para inferencia acelerada y **LangChain 1.x** para pipelines avanzados de IA.  
-Diseñados con **Flask**, **Gradio** y contenedorización en **Docker**, con despliegue en **IBM Cloud Code Engine**.
+El repositorio abarca desde el **fine-tuning eficiente de Transformers (PEFT/QLoRA)** y arquitecturas **Seq2Seq desde cero en PyTorch**, hasta **sistemas RAG** sobre documentos corporativos, **inspección visual**, **asistentes de voz multilingües** y **análisis de reuniones en tiempo real**.
 
 ---
 
 ## 🧩 Proyectos incluidos
 
-### 1. 🛩️ **Aircraft Damage Captioning**  
+### 1. 🛩️ Aircraft Damage Captioning
 
-Sistema de captioning para daños en aeronaves usando BLIP y modelos de visión, orientado a inspección visual asistida.  
+Sistema de *captioning* para detección y descripción de daños en aeronaves mediante BLIP y VGG16, orientado a la inspección visual industrial asistida por IA.  
 
-*Python · BLIP · VGG16 · Hugging Face*
+`Python` · `BLIP` · `VGG16` · `Hugging Face` · `Computer Vision`
 
-### 2. 🌍 **Babel Voice Assistant**  
+### 2. 🌍 Babel Voice Assistant
 
-Traductor de voz multilingüe con detección automática de idioma, STT y TTS integrado en interfaz web.  
+Traductor de voz multilingüe en tiempo real con detección automática de idioma, Speech-to-Text (STT) y Text-to-Speech (TTS) integrado en interfaz web.  
 
-*Python · Flask · LangChain · Groq · Web Speech API · HTML/CSS/JS*
+`Python` · `Flask` · `LangChain` · `Groq` · `Web Speech API` · `HTML/CSS/JS`
 
-### 3. 📄 **Chatbot RAG para PDFs (build-chatbot-for-your-data)**  
+### 3. 📄 Chatbot RAG para PDFs (`build-chatbot-for-your-data`)
 
-Chatbot que responde preguntas sobre documentos PDF propios usando RAG con LangChain y Groq como motor de inferencia.  
+Asistente conversacional RAG que responde sobre documentos PDF privados utilizando embeddings vectoriales, LangChain y Groq como motor de inferencia ultra-rápido.  
 
-*Python · Flask · LangChain · Groq · RAG*
+`Python` · `Flask` · `LangChain` · `Groq` · `RAG` · `FAISS / VectorStores`
 
-### 4. 💬 **Chatbot Transformers — Flask + Groq**  
+### 4. 💬 Chatbot Transformers — Flask + Groq
 
-Chatbot conversacional con memoria de contexto, modo oscuro e interfaz estilo ChatGPT. Motor Llama-3.1-8B-Instant vía Groq.  
+Chatbot conversacional avanzado con gestión de memoria contextual, persistencia de sesión y frontend estilo ChatGPT con modo oscuro. Impulsado por Llama 3.1 8B Instant.  
 
-*Python · Flask · Groq · Llama 3.1 · HTML/CSS/JS*
+`Python` · `Flask` · `Groq` · `Llama 3.1` · `HTML/CSS/JS`
 
-### 5. 🎙️ **Enterprise Meeting Companion**  
+### 5. 🎙️ Enterprise Meeting Companion
 
-Analiza reuniones empresariales con transcripción automática (Whisper) y resumen ejecutivo con Groq Llama 3.1.  
+Plataforma de análisis de reuniones corporativas que realiza transcripción automática multilingüe con Whisper y genera resúmenes ejecutivos procesables con Groq Llama 3.1.  
 
-*Python · Gradio · Whisper · Groq · Docker*
+`Python` · `Gradio` · `Whisper` · `Groq` · `Docker`
 
-### 6. 💡 **Generative AI Emotion Flask**
+### 6. 🧠 Emotion AI — Modern GenAI & PEFT Emotion Detection
 
-Análisis emocional de texto con BERT (Transformers) y Flask. Incluye preprocesado NLP, API REST, pruebas unitarias y arquitectura modular orientada a asistentes empáticos y análisis de sentimiento.
+Detector de emociones con modelos Transformer (BERT Base) optimizado mediante **PEFT (Parameter-Efficient Fine-Tuning)**: **LoRA**, **QLoRA (cuantización a 4-bit)** y **Adapters Pfeiffer**. Incluye API REST en Flask, frontend moderno estilo *Glass UI*, suite de pruebas unitarias (`unittest`), evaluación comparativa de métricas (F1/Accuracy) y código validado con Pylint (10/10).  
 
-*Python · Flask · Transformers · PyTorch · Sentiment Analysis*
+`Python` · `PyTorch` · `Hugging Face` · `PEFT (LoRA/QLoRA)` · `bitsandbytes` · `Flask` · `Unittest` · `Pylint`
 
-### 7. 🌐 **Generative AI Multilingual Chatbot**  
+### 7. 🌐 Generative AI Multilingual Chatbot
 
-Chatbot multilingüe con Groq, LangChain y FastAPI. Traduce, corrige y habla en varios idiomas con voz integrada y tutor de idiomas.  
+Tutor de idiomas y chatbot multilingüe con Groq, LangChain y FastAPI. Traduce, corrige gramática en tiempo real y ofrece salida de voz interactiva.  
 
-*Python · FastAPI · LangChain · Groq · HTML/CSS/JS · Web Speech API*
+`Python` · `FastAPI` · `LangChain` · `Groq` · `Web Speech API` · `HTML/CSS/JS`
 
-### 8. 🖼️ **Generative AI Vision — Image Captioning**  
+### 8. 🖼️ Generative AI Vision — Image Captioning
 
-Genera descripciones automáticas de imágenes con BLIP y Hugging Face. Interfaz con Gradio, containerizado con Docker y desplegado en IBM Cloud Code Engine.  
+Generador de descripciones automáticas de imágenes basado en el modelo BLIP. Interfaz en Gradio, empaquetado en contenedor Docker y desplegado en producción sobre IBM Cloud Code Engine.  
 
-*Python · BLIP · Gradio · Hugging Face · Docker · IBM Cloud*
+`Python` · `BLIP` · `Gradio` · `Hugging Face` · `Docker` · `IBM Cloud`
 
-### 9. 🗣️ **Generative AI Voice Assistant**  
+### 9. 🗣️ Generative AI Voice Assistant
 
-Asistente de voz conversacional con detección automática de idioma, traducción en tiempo real y síntesis de voz.  
+Asistente de voz conversacional con capacidad de escucha activa, traducción simultánea e interpretación de contexto en múltiples idiomas.  
 
-*Python · Flask · LangChain · Groq · HTML/CSS/JS*
+`Python` · `Flask` · `LangChain` · `Groq` · `Web Speech API`
 
-### 10. 🔤 **Generative AI Seq2Seq Translator (German → English)**  
+### 10. 🔤 Generative AI Seq2Seq Translator (German → English)
 
-Modelo de traducción automática Seq2Seq con arquitectura Encoder-Decoder (GRU) entrenado desde cero en PyTorch. Incluye pipeline completo de NLP, tokenización y vocabulario propio, evaluación BLEU e interfaz interactiva en Gradio.  
+Traductor automático basado en una arquitectura Encoder-Decoder Recurrente (GRU) entrenada **desde cero en PyTorch**. Pipeline completo de NLP con tokenización personalizada, gestión de vocabulario, evaluación mediante métricas BLEU e interfaz interactiva en Gradio.
 
-*Python · PyTorch · GRU · Gradio · BLEU · NLP*
+`Python` · `PyTorch` · `GRU` · `Seq2Seq` · `Gradio` · `BLEU Metric`
 
 ---
 
 ## 🚀 Stack tecnológico
 
 | Capa | Tecnologías |
-
-|---|---|
-
-| Modelos | BLIP · Whisper · Llama 3.1 · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
-
-| IA Framework | LangChain 1.x (Runnables) · PyTorch |
-
-| Inferencia | Groq API · PyTorch Engine |
-
-| Backend | Python · Flask · FastAPI · Gradio |
-
-| Frontend | HTML · CSS · JavaScript · Web Speech API |
-
-| Contenedorización | Docker |
-
-| Despliegue | IBM Cloud Code Engine |
+| :--- | :--- |
+| **Modelos & LLMs** | BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
+| **Técnicas de IA & PEFT** | RAG · Fine-Tuning (LoRA, QLoRA 4-bit, Adapters) · Prompt Engineering · Quantization |
+| **Frameworks de IA** | PyTorch · Hugging Face Transformers · PEFT · bitsandbytes · LangChain 1.x |
+| **Motores de Inferencia** | Groq LPU Accelerators · PyTorch Native Engine |
+| **Backend & APIs** | Python 3.10+ · Flask · FastAPI · Gradio · REST APIs |
+| **Frontend & UI** | HTML5 · CSS3 (Glassmorphism) · JavaScript · Web Speech API |
+| **Calidad & Testing** | Unittest · Pylint (10/10) · Preprocesamiento NLP |
+| **DevOps & Cloud** | Docker · Git & GitHub · IBM Cloud Code Engine |
 
 ---
 
