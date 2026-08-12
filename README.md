@@ -73,7 +73,7 @@ Traductor automático basado en una arquitectura Encoder-Decoder Recurrente (GRU
 ## 🚀 Stack tecnológico
 
 | Capa | Tecnologías |
-| :--- | :--- |
+| --- | --- |
 | **Modelos & LLMs** | BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
 | **Técnicas de IA & PEFT** | RAG · Fine-Tuning (LoRA, QLoRA 4-bit, Adapters) · Prompt Engineering · Quantization |
 | **Frameworks de IA** | PyTorch · Hugging Face Transformers · PEFT · bitsandbytes · LangChain 1.x |
