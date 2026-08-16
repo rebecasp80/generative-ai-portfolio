@@ -1,0 +1,4 @@
+model_name: distilbert-base-uncased
+learning_rate: 1e-5
+epochs: 2
+dataset_path: training/reward_dataset.json

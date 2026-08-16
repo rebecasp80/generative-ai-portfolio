@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot con Groq</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="chat-container">
+    <h2>Chatbot 🤖</h2>
+
+    <div id="chat-box"></div>
+
+    <input id="user-input" type="text" placeholder="Escribe un mensaje...">
+    <button onclick="sendMessage()" class="send-btn">Enviar</button>
+    <button onclick="clearMemory()" class="clear-btn">Borrar memoria</button>
+    <button onclick="trainPPO()" class="train-btn">Entrenar PPO</button>
+    <button onclick="trainDPO()" class="train-btn">Entrenar DPO</button>
+</div>
+
+<script>
+function sendMessage() {
+    const input = document.getElementById("user-input");
+    const message = input.value;
+    if (!message) return;
+
+    addMessage("Tú", message, "user-avatar");
+    input.value = "";
+
+    fetch("/chat", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({message})
+    })
+    .then(res => res.json())
+    .then(data => {
+        addMessage("Chatbot", data.reply, "bot-avatar");
+    });
+}
+
+function clearMemory() {
+    fetch("/clear", {method: "POST"})
+    .then(() => {
+        addMessage("Sistema", "Memoria borrada.", "bot-avatar");
+    });
+}
+
+function trainPPO() {
+    fetch("/train/ppo", {method: "POST"})
+    .then(() => {
+        addMessage("Sistema", "Entrenamiento PPO completado.", "bot-avatar");
+    });
+}
+
+function trainDPO() {
+    fetch("/train/dpo", {method: "POST"})
+    .then(() => {
+        addMessage("Sistema", "Entrenamiento DPO completado.", "bot-avatar");
+    });
+}
+
+function addMessage(sender, text, avatarClass) {
+    const box = document.getElementById("chat-box");
+    const messageHTML = `
+        <div class="message">
+            <div class="avatar ${avatarClass}"></div>
+            <div class="message-text"><strong>${sender}:</strong> ${text}</div>
+        </div>`;
+    box.innerHTML += messageHTML;
+    box.scrollTop = box.scrollHeight;
+}
+</script>
+
+</body>
+</html>

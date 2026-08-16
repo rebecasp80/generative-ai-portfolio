@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test Reward</title>
+</head>
+<body>
+    <h2>Probar Reward Model</h2>
+
+    <label>Query:</label><br>
+    <input id="query" type="text" value="¿Qué es Python?" style="width:300px;"><br><br>
+
+    <label>Response:</label><br>
+    <input id="response" type="text" value="Python es un lenguaje de programación." style="width:300px;"><br><br>
+
+    <button onclick="send()">Enviar</button>
+
+    <h3>Resultado:</h3>
+    <pre id="output"></pre>
+
+    <script>
+        function send() {
+            fetch("/reward", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({
+                    query: document.getElementById("query").value,
+                    response: document.getElementById("response").value
+                })
+            })
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+            });
+        }
+    </script>
+</body>
+</html>

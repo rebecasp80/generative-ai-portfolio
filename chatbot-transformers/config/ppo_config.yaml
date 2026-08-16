@@ -1,0 +1,7 @@
+model_name: distilgpt2
+learning_rate: 1e-5
+batch_size: 2
+mini_batch_size: 1
+ppo_epochs: 3
+rollouts_path: training/ppo_rollouts.json
+save_path: training/ppo_model

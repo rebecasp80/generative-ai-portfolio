@@ -1,0 +1,251 @@
+{"prompt": "¿Qué es Python?", "chosen": "Python es un lenguaje de programación versátil y fácil de aprender.", "rejected": "Python es una serpiente que se usa para programar."}
+{"prompt": "Explica qué es una red neuronal.", "chosen": "Una red neuronal es un modelo matemático inspirado en el cerebro humano.", "rejected": "Una red neuronal es un cerebro artificial que piensa como un humano."}
+{"prompt": "Dime un chiste corto.", "chosen": "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!", "rejected": "No sé chistes."}
+{"prompt": "Define machine learning.", "chosen": "Machine learning es un campo que permite a los sistemas aprender patrones a partir de datos.", "rejected": "Machine learning es cuando las máquinas aprenden solas sin datos."}
+{"prompt": "¿Qué es una API?", "chosen": "Una API es una interfaz que permite que dos sistemas se comuniquen.", "rejected": "Una API es un archivo que se instala para usar internet."}
+{"prompt": "Explica qué es un dataset.", "chosen": "Un dataset es un conjunto estructurado de datos utilizado para análisis o entrenamiento.", "rejected": "Un dataset es un archivo que contiene solo números aleatorios."}
+{"prompt": "¿Qué es un modelo de lenguaje?", "chosen": "Es un modelo entrenado para predecir y generar texto.", "rejected": "Es un programa que copia textos de internet."}
+{"prompt": "Dame un consejo para estudiar.", "chosen": "Divide el contenido en partes pequeñas y estudia de forma constante.", "rejected": "Estudia todo en una noche para memorizar rápido."}
+{"prompt": "¿Qué es la inteligencia artificial?", "chosen": "La IA es la capacidad de las máquinas para realizar tareas que requieren inteligencia humana.", "rejected": "La IA es una máquina que piensa igual que un humano."}
+{"prompt": "Explica qué es un token en NLP.", "chosen": "Un token es una unidad mínima de texto, como una palabra o subpalabra.", "rejected": "Un token es un párrafo completo dividido en partes."}
+{"prompt": "¿Qué es un modelo generativo?", "chosen": "Un modelo generativo produce nuevos datos basados en patrones aprendidos.", "rejected": "Un modelo generativo solo copia datos existentes."}
+{"prompt": "Dime un dato curioso.", "chosen": "Los pulpos tienen tres corazones.", "rejected": "Los pulpos pueden hablar con humanos."}
+{"prompt": "Explica qué es overfitting.", "chosen": "Overfitting ocurre cuando un modelo aprende demasiado los datos de entrenamiento y falla en generalizar.", "rejected": "Overfitting es cuando el modelo aprende muy poco."}
+{"prompt": "¿Qué es un prompt?", "chosen": "Un prompt es la entrada que se le da a un modelo para generar una respuesta.", "rejected": "Un prompt es la respuesta generada por el modelo."}
+{"prompt": "Dime una frase motivadora.", "chosen": "Cada pequeño paso te acerca a tu objetivo.", "rejected": "Si no puedes hacerlo perfecto, no lo hagas."}
+{"prompt": "¿Qué es un embedding?", "chosen": "Es una representación numérica de palabras o frases.", "rejected": "Es una imagen que representa un texto."}
+{"prompt": "Explica qué es backpropagation.", "chosen": "Es el proceso de ajustar los pesos de una red neuronal calculando gradientes.", "rejected": "Es el proceso de copiar los pesos de otra red neuronal."}
+{"prompt": "¿Qué es un modelo supervisado?", "chosen": "Es un modelo entrenado con datos etiquetados.", "rejected": "Es un modelo que aprende sin etiquetas."}
+{"prompt": "Dime un ejemplo de algoritmo de ML.", "chosen": "Random Forest es un algoritmo basado en múltiples árboles de decisión.", "rejected": "Excel es un algoritmo de machine learning."}
+{"prompt": "¿Qué es un hiperparámetro?", "chosen": "Es un valor configurado antes del entrenamiento del modelo.", "rejected": "Es un valor que el modelo aprende automáticamente."}
+{"prompt": "Explica qué es regularización.", "chosen": "Es una técnica para evitar overfitting penalizando pesos grandes.", "rejected": "Es una técnica para acelerar el entrenamiento duplicando los datos."}
+{"prompt": "¿Qué es un LLM?", "chosen": "Es un modelo de lenguaje de gran tamaño entrenado con enormes cantidades de texto.", "rejected": "Es un modelo pequeño que solo responde preguntas básicas."}
+{"prompt": "Dime un truco para programar mejor.", "chosen": "Divide los problemas en partes pequeñas y prueba cada componente.", "rejected": "Escribe todo el código sin probar hasta el final."}
+{"prompt": "¿Qué es un dataset balanceado?", "chosen": "Es un dataset donde las clases tienen cantidades similares de ejemplos.", "rejected": "Es un dataset donde todas las clases tienen exactamente los mismos datos."}
+{"prompt": "Explica qué es un transformer.", "chosen": "Es una arquitectura basada en atención que procesa secuencias de forma eficiente.", "rejected": "Es una red neuronal que transforma imágenes en texto."}
+{"prompt": "¿Qué es RLHF?", "chosen": "Es un método donde humanos dan retroalimentación para entrenar modelos con refuerzo.", "rejected": "Es un método donde los modelos se entrenan sin intervención humana."}
+{"prompt": "Dime un ejemplo de IA en la vida diaria.", "chosen": "Los sistemas de recomendación de Netflix usan IA.", "rejected": "Los semáforos funcionan con IA avanzada."}
+{"prompt": "¿Qué es un modelo autoregresivo?", "chosen": "Genera texto prediciendo el siguiente token basado en los anteriores.", "rejected": "Genera texto prediciendo todos los tokens a la vez."}
+{"prompt": "Explica qué es fine-tuning.", "chosen": "Es ajustar un modelo preentrenado con datos específicos.", "rejected": "Es entrenar un modelo desde cero sin datos previos."}
+{"prompt": "¿Qué es un batch?", "chosen": "Es un conjunto de ejemplos procesados juntos durante el entrenamiento.", "rejected": "Es un archivo donde se guardan los modelos."}
+{"prompt": "Dime un ejemplo de mala práctica en ML.", "chosen": "Entrenar sin validar los resultados.", "rejected": "Usar datos limpios y organizados."}
+{"prompt": "¿Qué es un modelo no supervisado?", "chosen": "Es un modelo que aprende patrones sin etiquetas.", "rejected": "Es un modelo que necesita etiquetas para aprender."}
+{"prompt": "Explica qué es un gradiente.", "chosen": "Es la dirección de cambio usada para actualizar los pesos.", "rejected": "Es el valor final del entrenamiento del modelo."}
+{"prompt": "¿Qué es un tokenizador?", "chosen": "Es el componente que divide texto en tokens.", "rejected": "Es el componente que genera texto automáticamente."}
+{"prompt": "Dime un ejemplo de arquitectura de red.", "chosen": "CNN es una arquitectura usada para imágenes.", "rejected": "HTML es una arquitectura de red neuronal."}
+{"prompt": "¿Qué es un modelo preentrenado?", "chosen": "Es un modelo entrenado previamente con grandes cantidades de datos.", "rejected": "Es un modelo que no ha sido entrenado."}
+{"prompt": "Explica qué es atención.", "chosen": "Es un mecanismo que permite al modelo enfocarse en partes relevantes de la entrada.", "rejected": "Es un mecanismo que ordena los tokens alfabéticamente."}
+{"prompt": "¿Qué es un optimizador?", "chosen": "Es un algoritmo que ajusta los pesos del modelo.", "rejected": "Es un programa que limpia los datos automáticamente."}
+{"prompt": "Dime un ejemplo de mala respuesta.", "chosen": "Una mala respuesta es aquella que no responde la pregunta.", "rejected": "Una mala respuesta es cualquier respuesta corta."}
+{"prompt": "¿Qué es un modelo de clasificación?", "chosen": "Es un modelo que asigna etiquetas a los datos.", "rejected": "Es un modelo que genera texto."}
+{"prompt": "Explica qué es un vector.", "chosen": "Es una lista ordenada de números.", "rejected": "Es una imagen convertida en texto."}
+{"prompt": "¿Qué es un modelo secuencial?", "chosen": "Es un modelo que procesa datos en orden.", "rejected": "Es un modelo que procesa todos los datos al mismo tiempo."}
+{"prompt": "Dime un ejemplo de buen hábito de estudio.", "chosen": "Tomar descansos regulares mejora la retención.", "rejected": "Estudiar sin parar durante horas es lo mejor."}
+{"prompt": "¿Qué es un modelo estadístico?", "chosen": "Es un modelo basado en distribuciones y probabilidades.", "rejected": "Es un modelo que siempre predice números aleatorios."}
+{"prompt": "Explica qué es un árbol de decisión.", "chosen": "Es un modelo que divide los datos en ramas basadas en condiciones.", "rejected": "Es un modelo que dibuja árboles para clasificar datos."}
+{"prompt": "¿Qué es un modelo generativo adversarial?", "chosen": "Es un modelo con dos redes que compiten entre sí.", "rejected": "Es un modelo que genera texto sin entrenamiento."}
+{"prompt": "Dime un ejemplo de error común en ML.", "chosen": "No dividir los datos en entrenamiento y prueba.", "rejected": "Usar datos variados y completos."}
+{"prompt": "¿Qué es un modelo estadístico simple?", "chosen": "Una regresión lineal es un modelo estadístico simple.", "rejected": "Una red neuronal profunda es un modelo estadístico simple."}
+{"prompt": "Explica qué es un vector de características.", "chosen": "Es una representación numérica de los atributos de un dato.", "rejected": "Es una imagen que representa los datos."}
+{"prompt": "¿Qué es una variable?", "chosen": "Una variable es un espacio donde se almacena un valor que puede cambiar.", "rejected": "Una variable es un archivo que se guarda en el disco duro."}
+{"prompt": "Define algoritmo.", "chosen": "Un algoritmo es un conjunto de pasos para resolver un problema.", "rejected": "Un algoritmo es un programa que se ejecuta automáticamente sin instrucciones."}
+{"prompt": "¿Qué es una función en programación?", "chosen": "Una función es un bloque de código reutilizable que realiza una tarea específica.", "rejected": "Una función es un archivo que contiene todo el programa."}
+{"prompt": "Explica qué es un bucle.", "chosen": "Un bucle es una estructura que repite instrucciones mientras se cumpla una condición.", "rejected": "Un bucle es un error que hace que el programa se congele."}
+{"prompt": "¿Qué es un diccionario en Python?", "chosen": "Es una estructura que almacena pares clave-valor.", "rejected": "Es una lista que solo guarda números enteros."}
+{"prompt": "Define compilador.", "chosen": "Un compilador traduce código fuente a código máquina.", "rejected": "Un compilador es un editor donde se escribe código."}
+{"prompt": "¿Qué es un intérprete?", "chosen": "Es un programa que ejecuta código línea por línea.", "rejected": "Es un programa que convierte imágenes en texto."}
+{"prompt": "Explica qué es un IDE.", "chosen": "Un IDE es un entorno que facilita escribir y depurar código.", "rejected": "Un IDE es un sistema operativo especializado para programadores."}
+{"prompt": "¿Qué es JSON?", "chosen": "JSON es un formato ligero para intercambiar datos estructurados.", "rejected": "JSON es un lenguaje de programación para crear aplicaciones web."}
+{"prompt": "Define API REST.", "chosen": "REST es un estilo de arquitectura para crear servicios web.", "rejected": "REST es un programa que reinicia servidores automáticamente."}
+{"prompt": "¿Qué es una clase?", "chosen": "Una clase es un molde para crear objetos con atributos y métodos.", "rejected": "Una clase es un archivo donde se guardan imágenes."}
+{"prompt": "Explica qué es herencia.", "chosen": "La herencia permite crear clases basadas en otras clases.", "rejected": "La herencia copia todo el código sin permitir modificaciones."}
+{"prompt": "¿Qué es un objeto?", "chosen": "Un objeto es una instancia de una clase.", "rejected": "Un objeto es cualquier archivo guardado en el ordenador."}
+{"prompt": "Define encapsulación.", "chosen": "Es el principio que oculta detalles internos de un objeto.", "rejected": "Es un método para comprimir archivos."}
+{"prompt": "¿Qué es un módulo?", "chosen": "Un módulo es un archivo con funciones y clases reutilizables.", "rejected": "Un módulo es un programa que se ejecuta solo una vez."}
+{"prompt": "Explica qué es una excepción.", "chosen": "Una excepción es un error que ocurre durante la ejecución.", "rejected": "Una excepción es un mensaje que aparece cuando el programa termina bien."}
+{"prompt": "¿Qué es un dataset limpio?", "chosen": "Es un dataset sin valores faltantes ni inconsistencias.", "rejected": "Es un dataset que contiene solo números positivos."}
+{"prompt": "Define regresión.", "chosen": "La regresión predice valores continuos a partir de datos.", "rejected": "La regresión clasifica datos en categorías."}
+{"prompt": "¿Qué es clasificación?", "chosen": "Es asignar etiquetas a los datos según sus características.", "rejected": "Es ordenar datos alfabéticamente."}
+{"prompt": "Explica qué es clustering.", "chosen": "Es agrupar datos similares sin usar etiquetas.", "rejected": "Es dividir datos en partes iguales sin analizarlos."}
+{"prompt": "¿Qué es una matriz de confusión?", "chosen": "Es una tabla que muestra aciertos y errores de un modelo.", "rejected": "Es una tabla que ordena los datos por tamaño."}
+{"prompt": "Define precisión.", "chosen": "Es la proporción de predicciones correctas sobre las totales.", "rejected": "Es la velocidad con la que se entrena un modelo."}
+{"prompt": "¿Qué es recall?", "chosen": "Es la capacidad del modelo para encontrar casos positivos.", "rejected": "Es la cantidad de datos que el modelo puede almacenar."}
+{"prompt": "Explica qué es F1-score.", "chosen": "Es la media armónica entre precisión y recall.", "rejected": "Es la suma de precisión y recall."}
+{"prompt": "¿Qué es un perceptrón?", "chosen": "Es la unidad básica de una red neuronal.", "rejected": "Es un algoritmo que solo sirve para clasificar imágenes."}
+{"prompt": "Define epoch.", "chosen": "Un epoch es una pasada completa por el dataset de entrenamiento.", "rejected": "Un epoch es el tiempo que tarda un modelo en ejecutarse."}
+{"prompt": "¿Qué es batch size?", "chosen": "Es la cantidad de muestras procesadas en cada iteración.", "rejected": "Es el tamaño del archivo donde se guarda el modelo."}
+{"prompt": "Explica qué es dropout.", "chosen": "Dropout desactiva neuronas aleatoriamente para evitar overfitting.", "rejected": "Dropout elimina datos del dataset para hacerlo más pequeño."}
+{"prompt": "¿Qué es un optimizador?", "chosen": "Es un algoritmo que ajusta los pesos del modelo.", "rejected": "Es un programa que limpia datos automáticamente."}
+{"prompt": "Define gradiente descendente.", "chosen": "Es un método para minimizar la función de pérdida.", "rejected": "Es un método para aumentar la precisión sin entrenar."}
+{"prompt": "¿Qué es una función de activación?", "chosen": "Es una función que decide la salida de una neurona.", "rejected": "Es una función que reinicia el modelo cuando falla."}
+{"prompt": "Explica qué es softmax.", "chosen": "Softmax convierte valores en probabilidades.", "rejected": "Softmax ordena los datos de menor a mayor."}
+{"prompt": "¿Qué es una CNN?", "chosen": "Es una red neuronal especializada en procesar imágenes.", "rejected": "Es un programa que convierte texto en imágenes."}
+{"prompt": "Define RNN.", "chosen": "Una RNN procesa secuencias usando memoria interna.", "rejected": "Una RNN solo funciona con datos numéricos."}
+{"prompt": "¿Qué es un embedding?", "chosen": "Es una representación numérica de palabras o elementos.", "rejected": "Es una imagen que representa un texto."}
+{"prompt": "Explica qué es tokenización.", "chosen": "Es dividir texto en unidades como palabras o subpalabras.", "rejected": "Es convertir texto en números aleatorios."}
+{"prompt": "¿Qué es un LLM?", "chosen": "Es un modelo de lenguaje entrenado con grandes cantidades de texto.", "rejected": "Es un modelo pequeño que solo responde preguntas básicas."}
+{"prompt": "Define atención.", "chosen": "Es un mecanismo que permite enfocarse en partes relevantes de la entrada.", "rejected": "Es un método para ordenar tokens alfabéticamente."}
+{"prompt": "¿Qué es un transformer?", "chosen": "Es una arquitectura basada en atención para procesar secuencias.", "rejected": "Es una red neuronal que transforma imágenes en texto."}
+{"prompt": "Explica qué es RLHF.", "chosen": "Es un método donde humanos dan retroalimentación para entrenar modelos.", "rejected": "Es un método donde los modelos se entrenan sin intervención humana."}
+{"prompt": "¿Qué es un modelo generativo?", "chosen": "Genera nuevos datos basados en patrones aprendidos.", "rejected": "Solo copia datos existentes sin modificarlos."}
+{"prompt": "Define overfitting.", "chosen": "Es cuando el modelo aprende demasiado los datos de entrenamiento y no generaliza.", "rejected": "Es cuando el modelo aprende muy poco."}
+{"prompt": "¿Qué es underfitting?", "chosen": "Es cuando el modelo no aprende lo suficiente del dataset.", "rejected": "Es cuando el modelo memoriza demasiado."}
+{"prompt": "Explica qué es regularización.", "chosen": "Es una técnica para evitar overfitting penalizando pesos grandes.", "rejected": "Es duplicar datos para entrenar más rápido."}
+{"prompt": "¿Qué es un hiperparámetro?", "chosen": "Es un valor configurado antes del entrenamiento.", "rejected": "Es un valor que el modelo aprende automáticamente."}
+{"prompt": "Define dataset balanceado.", "chosen": "Tiene cantidades similares de ejemplos por clase.", "rejected": "Todas las clases tienen exactamente los mismos datos."}
+{"prompt": "¿Qué es un modelo supervisado?", "chosen": "Es un modelo entrenado con datos etiquetados.", "rejected": "Aprende sin etiquetas."}
+{"prompt": "Explica qué es un modelo no supervisado.", "chosen": "Aprende patrones sin etiquetas.", "rejected": "Necesita etiquetas para funcionar."}
+{"prompt": "¿Qué es un árbol de decisión?", "chosen": "Divide los datos en ramas basadas en condiciones.", "rejected": "Dibuja árboles para clasificar datos."}
+{"prompt": "Define Random Forest.", "chosen": "Es un conjunto de árboles de decisión que mejora la precisión.", "rejected": "Es un único árbol que se entrena más rápido."}
+{"prompt": "¿Qué es una base de datos?", "chosen": "Una base de datos es un sistema que permite almacenar y organizar información.", "rejected": "Una base de datos es un archivo de texto con números aleatorios."}
+{"prompt": "Define SQL.", "chosen": "SQL es un lenguaje para gestionar y consultar bases de datos relacionales.", "rejected": "SQL es un programa que convierte datos en imágenes."}
+{"prompt": "¿Qué es NoSQL?", "chosen": "NoSQL es un conjunto de tecnologías de bases de datos no relacionales.", "rejected": "NoSQL es una versión antigua de SQL que ya no se usa."}
+{"prompt": "Explica qué es un servidor.", "chosen": "Un servidor es un equipo que ofrece recursos o servicios a otros dispositivos.", "rejected": "Un servidor es un programa que solo muestra páginas web."}
+{"prompt": "¿Qué es un cliente en informática?", "chosen": "Es un dispositivo o aplicación que solicita servicios a un servidor.", "rejected": "Es un archivo que contiene la configuración del servidor."}
+{"prompt": "Define protocolo HTTP.", "chosen": "HTTP es un protocolo para transferir información en la web.", "rejected": "HTTP es un programa que acelera la conexión a internet."}
+{"prompt": "¿Qué es HTTPS?", "chosen": "HTTPS es la versión segura de HTTP que cifra la comunicación.", "rejected": "HTTPS es un antivirus que protege páginas web."}
+{"prompt": "Explica qué es un endpoint.", "chosen": "Un endpoint es una URL donde una API recibe solicitudes.", "rejected": "Un endpoint es un archivo donde se guardan las respuestas de la API."}
+{"prompt": "¿Qué es un token de autenticación?", "chosen": "Es un identificador que permite verificar la identidad de un usuario.", "rejected": "Es un archivo que contiene la contraseña del usuario."}
+{"prompt": "Define firewall.", "chosen": "Un firewall es un sistema que controla el tráfico de red para proteger dispositivos.", "rejected": "Un firewall es un programa que elimina virus automáticamente."}
+{"prompt": "¿Qué es una red local?", "chosen": "Es un conjunto de dispositivos conectados dentro de un área limitada.", "rejected": "Es una red que solo funciona sin internet."}
+{"prompt": "Explica qué es un router.", "chosen": "Un router dirige el tráfico entre redes y dispositivos.", "rejected": "Un router es un programa que mejora la velocidad del ordenador."}
+{"prompt": "¿Qué es una dirección IP?", "chosen": "Es un identificador único para cada dispositivo en una red.", "rejected": "Es el nombre del usuario en internet."}
+{"prompt": "Define DNS.", "chosen": "DNS traduce nombres de dominio en direcciones IP.", "rejected": "DNS es un programa que crea páginas web automáticamente."}
+{"prompt": "¿Qué es un paquete de red?", "chosen": "Es una unidad de datos que se envía a través de una red.", "rejected": "Es un archivo comprimido que contiene toda la información del servidor."}
+{"prompt": "Explica qué es latencia.", "chosen": "Es el tiempo que tarda un paquete en viajar de origen a destino.", "rejected": "Es la velocidad máxima de descarga de internet."}
+{"prompt": "¿Qué es un sistema operativo?", "chosen": "Es el software que gestiona los recursos del hardware.", "rejected": "Es un programa que solo sirve para instalar aplicaciones."}
+{"prompt": "Define kernel.", "chosen": "El kernel es el núcleo del sistema operativo que gestiona procesos y memoria.", "rejected": "El kernel es un archivo donde se guardan las contraseñas del sistema."}
+{"prompt": "¿Qué es memoria RAM?", "chosen": "Es la memoria temporal donde se almacenan datos mientras el sistema está activo.", "rejected": "Es la memoria donde se guardan archivos permanentemente."}
+{"prompt": "Explica qué es almacenamiento SSD.", "chosen": "Un SSD es un dispositivo de almacenamiento rápido sin partes mecánicas.", "rejected": "Un SSD es una memoria que solo funciona en servidores."}
+{"prompt": "¿Qué es una GPU?", "chosen": "Es un procesador especializado en cálculos paralelos, ideal para gráficos y IA.", "rejected": "Es un programa que mejora la calidad de las imágenes."}
+{"prompt": "Define CPU.", "chosen": "La CPU es el procesador principal que ejecuta instrucciones del sistema.", "rejected": "La CPU es la memoria donde se guardan los programas."}
+{"prompt": "¿Qué es multithreading?", "chosen": "Es la capacidad de ejecutar múltiples hilos de ejecución simultáneamente.", "rejected": "Es un método para duplicar la velocidad del procesador sin hardware."}
+{"prompt": "Explica qué es un proceso.", "chosen": "Un proceso es un programa en ejecución con recursos asignados.", "rejected": "Un proceso es un archivo que contiene instrucciones sin ejecutarse."}
+{"prompt": "¿Qué es un hilo?", "chosen": "Es la unidad mínima de ejecución dentro de un proceso.", "rejected": "Es un programa independiente que se ejecuta sin proceso."}
+{"prompt": "Define virtualización.", "chosen": "Es la creación de entornos virtuales que simulan hardware físico.", "rejected": "Es un método para duplicar la memoria del ordenador."}
+{"prompt": "¿Qué es un contenedor?", "chosen": "Es un entorno aislado que ejecuta aplicaciones con sus dependencias.", "rejected": "Es un archivo que guarda todas las aplicaciones del sistema."}
+{"prompt": "Explica qué es Docker.", "chosen": "Docker es una plataforma para crear y ejecutar contenedores.", "rejected": "Docker es un sistema operativo para servidores."}
+{"prompt": "¿Qué es Kubernetes?", "chosen": "Es una herramienta para gestionar y escalar contenedores.", "rejected": "Es un programa que crea contenedores automáticamente sin configuración."}
+{"prompt": "Define microservicio.", "chosen": "Es una aplicación dividida en componentes pequeños e independientes.", "rejected": "Es un servidor pequeño que solo ejecuta una aplicación."}
+{"prompt": "¿Qué es arquitectura monolítica?", "chosen": "Es una aplicación donde todos los componentes están integrados en un solo bloque.", "rejected": "Es una aplicación dividida en muchos servicios independientes."}
+{"prompt": "Explica qué es CI/CD.", "chosen": "Es un conjunto de prácticas para integrar y desplegar código automáticamente.", "rejected": "Es un programa que instala actualizaciones sin permiso."}
+{"prompt": "¿Qué es Git?", "chosen": "Git es un sistema de control de versiones para gestionar cambios en el código.", "rejected": "Git es un editor donde se escribe código."}
+{"prompt": "Define commit.", "chosen": "Un commit es un registro de cambios en un repositorio.", "rejected": "Un commit es un archivo donde se guardan los cambios del proyecto."}
+{"prompt": "¿Qué es un repositorio?", "chosen": "Es un espacio donde se almacena código y su historial.", "rejected": "Es un programa que ejecuta código automáticamente."}
+{"prompt": "Explica qué es una rama en Git.", "chosen": "Es una línea de desarrollo independiente dentro del repositorio.", "rejected": "Es un archivo que contiene una copia del proyecto."}
+{"prompt": "¿Qué es un merge?", "chosen": "Es la acción de combinar cambios de una rama con otra.", "rejected": "Es un método para eliminar ramas antiguas."}
+{"prompt": "Define pull request.", "chosen": "Es una solicitud para revisar y fusionar cambios en un repositorio.", "rejected": "Es un archivo que contiene los cambios sin revisarlos."}
+{"prompt": "¿Qué es un bug?", "chosen": "Es un error en el código que produce un comportamiento inesperado.", "rejected": "Es una función que se ejecuta automáticamente sin permiso."}
+{"prompt": "Explica qué es depuración.", "chosen": "Es el proceso de identificar y corregir errores en el código.", "rejected": "Es eliminar partes del código para hacerlo más corto."}
+{"prompt": "¿Qué es un test unitario?", "chosen": "Es una prueba que verifica el funcionamiento de una parte pequeña del código.", "rejected": "Es una prueba que evalúa todo el sistema completo."}
+{"prompt": "Define integración continua.", "chosen": "Es la práctica de integrar cambios frecuentemente para detectar errores temprano.", "rejected": "Es integrar todos los cambios al final del proyecto."}
+{"prompt": "¿Qué es un endpoint de API?", "chosen": "Es una dirección donde la API recibe solicitudes.", "rejected": "Es un archivo donde se guardan las respuestas de la API."}
+{"prompt": "Explica qué es latencia en redes.", "chosen": "Es el tiempo que tarda un paquete en viajar de origen a destino.", "rejected": "Es la velocidad máxima de descarga del internet."}
+{"prompt": "¿Qué es un modelo estadístico?", "chosen": "Es un modelo basado en distribuciones y probabilidades.", "rejected": "Es un modelo que siempre predice números aleatorios."}
+{"prompt": "Define vector de características.", "chosen": "Es una representación numérica de los atributos de un dato.", "rejected": "Es una imagen que representa los datos."}
+{"prompt": "¿Qué es un modelo secuencial?", "chosen": "Es un modelo que procesa datos en orden.", "rejected": "Es un modelo que procesa todos los datos al mismo tiempo."}
+{"prompt": "Explica qué es un perceptrón multicapa.", "chosen": "Es una red neuronal con varias capas de neuronas.", "rejected": "Es una red neuronal que solo tiene una capa."}
+{"prompt": "¿Qué es un autoencoder?", "chosen": "Es un modelo que aprende a comprimir y reconstruir datos.", "rejected": "Es un modelo que elimina datos irrelevantes sin aprender nada."}
+{"prompt": "¿Qué es un modelo autoregresivo?", "chosen": "Es un modelo que predice el siguiente elemento usando los anteriores.", "rejected": "Es un modelo que predice todos los elementos al mismo tiempo."}
+{"prompt": "Define modelo causal.", "chosen": "Un modelo causal genera texto de izquierda a derecha.", "rejected": "Un modelo causal genera texto en cualquier orden sin reglas."}
+{"prompt": "¿Qué es un token?", "chosen": "Es la unidad mínima de texto procesada por un modelo.", "rejected": "Es un párrafo completo dividido en partes."}
+{"prompt": "Explica qué es un corpus.", "chosen": "Es un conjunto grande de textos usados para entrenar modelos.", "rejected": "Es un archivo donde se guardan imágenes y videos."}
+{"prompt": "¿Qué es un modelo generativo adversarial?", "chosen": "Es un modelo con dos redes que compiten para mejorar resultados.", "rejected": "Es un modelo que genera texto sin entrenamiento."}
+{"prompt": "Define función de pérdida.", "chosen": "Es una medida que indica qué tan mal está prediciendo el modelo.", "rejected": "Es una función que elimina datos incorrectos del dataset."}
+{"prompt": "¿Qué es un gradiente?", "chosen": "Es la dirección de cambio usada para ajustar los pesos del modelo.", "rejected": "Es el valor final del entrenamiento del modelo."}
+{"prompt": "Explica qué es un optimizador Adam.", "chosen": "Adam ajusta los pesos usando momentos del gradiente.", "rejected": "Adam convierte los datos en valores aleatorios."}
+{"prompt": "¿Qué es un modelo preentrenado?", "chosen": "Es un modelo entrenado previamente con grandes cantidades de datos.", "rejected": "Es un modelo que no ha sido entrenado."}
+{"prompt": "Define fine-tuning.", "chosen": "Es ajustar un modelo preentrenado con datos específicos.", "rejected": "Es entrenar un modelo desde cero sin datos previos."}
+{"prompt": "¿Qué es un embedding semántico?", "chosen": "Es una representación numérica que captura significado.", "rejected": "Es una imagen que representa palabras."}
+{"prompt": "Explica qué es un modelo encoder-decoder.", "chosen": "Es una arquitectura donde un encoder procesa la entrada y un decoder genera la salida.", "rejected": "Es un modelo que solo puede clasificar imágenes."}
+{"prompt": "¿Qué es un modelo encoder-only?", "chosen": "Es un modelo que procesa texto para tareas como clasificación.", "rejected": "Es un modelo que solo genera texto."}
+{"prompt": "Define modelo decoder-only.", "chosen": "Es un modelo que genera texto token por token.", "rejected": "Es un modelo que solo puede traducir idiomas."}
+{"prompt": "¿Qué es un modelo multimodal?", "chosen": "Es un modelo que procesa varios tipos de datos como texto e imágenes.", "rejected": "Es un modelo que solo funciona con texto."}
+{"prompt": "Explica qué es un dataset sintético.", "chosen": "Es un dataset generado artificialmente para entrenamiento.", "rejected": "Es un dataset que solo contiene datos reales sin modificaciones."}
+{"prompt": "¿Qué es un modelo de clasificación binaria?", "chosen": "Es un modelo que asigna una de dos etiquetas posibles.", "rejected": "Es un modelo que asigna múltiples etiquetas siempre."}
+{"prompt": "Define clasificación multiclase.", "chosen": "Es asignar una etiqueta entre varias posibles.", "rejected": "Es asignar varias etiquetas al mismo tiempo."}
+{"prompt": "¿Qué es clasificación multilabel?", "chosen": "Es asignar múltiples etiquetas a una misma muestra.", "rejected": "Es asignar solo una etiqueta obligatoriamente."}
+{"prompt": "Explica qué es un modelo probabilístico.", "chosen": "Es un modelo que estima probabilidades para cada predicción.", "rejected": "Es un modelo que predice valores fijos sin variación."}
+{"prompt": "¿Qué es un modelo determinista?", "chosen": "Es un modelo que siempre produce la misma salida para la misma entrada.", "rejected": "Es un modelo que cambia su salida aleatoriamente."}
+{"prompt": "Define aprendizaje profundo.", "chosen": "Es un conjunto de técnicas basadas en redes neuronales con muchas capas.", "rejected": "Es entrenar modelos sin datos reales."}
+{"prompt": "¿Qué es una capa oculta?", "chosen": "Es una capa interna de una red neuronal que transforma la información.", "rejected": "Es una capa que no participa en el entrenamiento."}
+{"prompt": "Explica qué es un perceptrón simple.", "chosen": "Es una neurona con pesos y una función de activación.", "rejected": "Es una red neuronal completa con muchas capas."}
+{"prompt": "¿Qué es una función sigmoide?", "chosen": "Es una función que convierte valores en un rango entre 0 y 1.", "rejected": "Es una función que convierte texto en números."}
+{"prompt": "Define función ReLU.", "chosen": "ReLU devuelve cero para valores negativos y el valor original para positivos.", "rejected": "ReLU convierte valores en probabilidades."}
+{"prompt": "¿Qué es una capa de atención?", "chosen": "Es una capa que asigna importancia a diferentes partes de la entrada.", "rejected": "Es una capa que ordena tokens alfabéticamente."}
+{"prompt": "Explica qué es atención cruzada.", "chosen": "Es atención entre dos secuencias distintas, como entrada y salida.", "rejected": "Es atención que solo funciona con imágenes."}
+{"prompt": "¿Qué es atención auto-regresiva?", "chosen": "Es atención que solo mira tokens anteriores.", "rejected": "Es atención que mira todos los tokens simultáneamente."}
+{"prompt": "Define máscara de atención.", "chosen": "Es una matriz que indica qué tokens deben ser ignorados.", "rejected": "Es un filtro que elimina tokens irrelevantes del texto."}
+{"prompt": "¿Qué es un modelo de embeddings?", "chosen": "Es un modelo que convierte elementos en vectores numéricos.", "rejected": "Es un modelo que convierte vectores en imágenes."}
+{"prompt": "Explica qué es un modelo de clasificación textual.", "chosen": "Es un modelo que asigna etiquetas a fragmentos de texto.", "rejected": "Es un modelo que genera texto automáticamente."}
+{"prompt": "¿Qué es un modelo de resumen?", "chosen": "Es un modelo que genera versiones más cortas de un texto.", "rejected": "Es un modelo que traduce textos a otros idiomas."}
+{"prompt": "Define modelo de traducción automática.", "chosen": "Es un modelo que convierte texto de un idioma a otro.", "rejected": "Es un modelo que resume textos automáticamente."}
+{"prompt": "¿Qué es un modelo de extracción de información?", "chosen": "Es un modelo que identifica datos relevantes dentro de un texto.", "rejected": "Es un modelo que genera información nueva sin contexto."}
+{"prompt": "Explica qué es un modelo de generación de texto.", "chosen": "Es un modelo que produce texto token por token.", "rejected": "Es un modelo que solo clasifica palabras."}
+{"prompt": "¿Qué es un modelo de completado de texto?", "chosen": "Es un modelo que predice cómo continuar una frase.", "rejected": "Es un modelo que corrige errores ortográficos."}
+{"prompt": "Define modelo de corrección gramatical.", "chosen": "Es un modelo que detecta y corrige errores en el texto.", "rejected": "Es un modelo que genera texto creativo."}
+{"prompt": "¿Qué es un modelo de análisis de sentimiento?", "chosen": "Es un modelo que identifica emociones en un texto.", "rejected": "Es un modelo que traduce emociones a números."}
+{"prompt": "Explica qué es un modelo de clasificación de intención.", "chosen": "Es un modelo que identifica la intención detrás de un mensaje.", "rejected": "Es un modelo que genera respuestas automáticas."}
+{"prompt": "¿Qué es un modelo de extracción de entidades?", "chosen": "Es un modelo que identifica nombres, lugares y conceptos en texto.", "rejected": "Es un modelo que genera entidades nuevas sin contexto."}
+{"prompt": "Define modelo de detección de temas.", "chosen": "Es un modelo que identifica los temas principales de un texto.", "rejected": "Es un modelo que elimina temas irrelevantes."}
+{"prompt": "¿Qué es un modelo de clasificación jerárquica?", "chosen": "Es un modelo que asigna etiquetas organizadas en niveles.", "rejected": "Es un modelo que asigna etiquetas aleatorias."}
+{"prompt": "Explica qué es un modelo de ranking.", "chosen": "Es un modelo que ordena elementos según relevancia.", "rejected": "Es un modelo que elimina elementos irrelevantes."}
+{"prompt": "¿Qué es un modelo de recomendación?", "chosen": "Es un modelo que sugiere elementos basados en preferencias.", "rejected": "Es un modelo que muestra elementos aleatorios."}
+{"prompt": "Define filtrado colaborativo.", "chosen": "Es un método que recomienda elementos basándose en usuarios similares.", "rejected": "Es un método que recomienda elementos al azar."}
+{"prompt": "¿Qué es filtrado basado en contenido?", "chosen": "Recomienda elementos según características del usuario.", "rejected": "Recomienda elementos según popularidad global."}
+{"prompt": "Explica qué es un embedding de usuario.", "chosen": "Es una representación numérica de las preferencias de un usuario.", "rejected": "Es una imagen que representa al usuario."}
+{"prompt": "¿Qué es un embedding de ítem?", "chosen": "Es una representación numérica de las características de un elemento.", "rejected": "Es un archivo donde se guardan los elementos."}
+{"prompt": "Define cold start.", "chosen": "Es el problema de recomendar cuando no hay datos suficientes.", "rejected": "Es el proceso de reiniciar un modelo desde cero."}
+{"prompt": "¿Qué es un modelo de series temporales?", "chosen": "Es un modelo que analiza datos ordenados en el tiempo para hacer predicciones.", "rejected": "Es un modelo que solo funciona con datos sin orden temporal."}
+{"prompt": "Define ARIMA.", "chosen": "ARIMA es un modelo estadístico para predecir series temporales usando autoregresión y medias móviles.", "rejected": "ARIMA es un programa que ordena datos automáticamente."}
+{"prompt": "¿Qué es estacionalidad?", "chosen": "Es un patrón que se repite regularmente en una serie temporal.", "rejected": "Es un error que aparece cuando los datos están incompletos."}
+{"prompt": "Explica qué es tendencia.", "chosen": "Es la dirección general que siguen los datos a lo largo del tiempo.", "rejected": "Es la variación aleatoria de los datos sin patrón."}
+{"prompt": "¿Qué es ruido en datos?", "chosen": "Es variación aleatoria que no representa información útil.", "rejected": "Es un error que siempre debe eliminarse completamente."}
+{"prompt": "Define normalización.", "chosen": "Es escalar datos a un rango específico para mejorar el entrenamiento.", "rejected": "Es convertir todos los datos en números enteros."}
+{"prompt": "¿Qué es estandarización?", "chosen": "Es transformar datos para que tengan media cero y desviación estándar uno.", "rejected": "Es ordenar datos de menor a mayor."}
+{"prompt": "Explica qué es un pipeline de datos.", "chosen": "Es una secuencia de pasos para procesar datos desde su origen hasta su uso final.", "rejected": "Es un archivo donde se guardan todos los datos del proyecto."}
+{"prompt": "¿Qué es ingeniería de características?", "chosen": "Es crear nuevas variables útiles a partir de los datos originales.", "rejected": "Es eliminar características para reducir el tamaño del dataset."}
+{"prompt": "Define selección de características.", "chosen": "Es elegir las variables más relevantes para un modelo.", "rejected": "Es usar todas las variables sin analizar su importancia."}
+{"prompt": "¿Qué es PCA?", "chosen": "Es una técnica para reducir dimensionalidad preservando la mayor variabilidad posible.", "rejected": "Es un método para aumentar el número de características."}
+{"prompt": "Explica qué es K-Means.", "chosen": "Es un algoritmo de clustering que agrupa datos según cercanía.", "rejected": "Es un algoritmo que clasifica datos con etiquetas predefinidas."}
+{"prompt": "¿Qué es DBSCAN?", "chosen": "Es un algoritmo de clustering basado en densidad.", "rejected": "Es un algoritmo que ordena datos por tamaño."}
+{"prompt": "Define aprendizaje por refuerzo.", "chosen": "Es un método donde un agente aprende tomando acciones y recibiendo recompensas.", "rejected": "Es entrenar modelos sin datos ni retroalimentación."}
+{"prompt": "¿Qué es una política en RL?", "chosen": "Es la estrategia que define qué acción tomar en cada estado.", "rejected": "Es la lista de recompensas que recibe el agente."}
+{"prompt": "Explica qué es Q-Learning.", "chosen": "Es un algoritmo que aprende el valor de cada acción en cada estado.", "rejected": "Es un algoritmo que predice texto automáticamente."}
+{"prompt": "¿Qué es un entorno en RL?", "chosen": "Es el espacio donde el agente interactúa y recibe recompensas.", "rejected": "Es el archivo donde se guardan las acciones del agente."}
+{"prompt": "Define recompensa.", "chosen": "Es la señal que indica qué tan buena fue una acción.", "rejected": "Es el valor final del entrenamiento del modelo."}
+{"prompt": "¿Qué es un modelo basado en políticas?", "chosen": "Es un modelo que aprende directamente la política óptima.", "rejected": "Es un modelo que solo aprende valores sin acciones."}
+{"prompt": "Explica qué es un modelo basado en valores.", "chosen": "Es un modelo que aprende el valor de cada acción para elegir la mejor.", "rejected": "Es un modelo que ignora las acciones y solo predice recompensas."}
+{"prompt": "¿Qué es un agente?", "chosen": "Es la entidad que toma decisiones en un entorno de RL.", "rejected": "Es el archivo donde se guardan las decisiones del modelo."}
+{"prompt": "Define exploración.", "chosen": "Es probar acciones nuevas para descubrir mejores estrategias.", "rejected": "Es repetir siempre las mismas acciones para evitar errores."}
+{"prompt": "¿Qué es explotación?", "chosen": "Es usar el conocimiento actual para elegir la mejor acción.", "rejected": "Es ignorar la política aprendida y actuar al azar."}
+{"prompt": "Explica qué es una red neuronal profunda.", "chosen": "Es una red con múltiples capas que aprende representaciones complejas.", "rejected": "Es una red que solo tiene una capa oculta."}
+{"prompt": "¿Qué es un modelo convolucional?", "chosen": "Es un modelo que usa convoluciones para extraer características de imágenes.", "rejected": "Es un modelo que convierte imágenes en texto."}
+{"prompt": "Define capa de pooling.", "chosen": "Reduce la dimensionalidad seleccionando valores representativos.", "rejected": "Duplica el tamaño de la imagen para mejorar la precisión."}
+{"prompt": "¿Qué es una red residual?", "chosen": "Es una red que usa conexiones de salto para evitar pérdida de información.", "rejected": "Es una red que elimina capas para entrenar más rápido."}
+{"prompt": "Explica qué es batch normalization.", "chosen": "Es una técnica que estabiliza el entrenamiento normalizando activaciones.", "rejected": "Es un método para eliminar valores extremos del dataset."}
+{"prompt": "¿Qué es una red GAN?", "chosen": "Es un modelo con dos redes: generador y discriminador.", "rejected": "Es un modelo que solo genera imágenes sin entrenamiento."}
+{"prompt": "Define generador en GAN.", "chosen": "Es la red que crea datos sintéticos.", "rejected": "Es la red que detecta si los datos son reales."}
+{"prompt": "¿Qué es un discriminador en GAN?", "chosen": "Es la red que distingue entre datos reales y generados.", "rejected": "Es la red que genera imágenes nuevas."}
+{"prompt": "Explica qué es retropropagación.", "chosen": "Es el proceso de ajustar pesos calculando gradientes desde la salida hacia atrás.", "rejected": "Es copiar los pesos de otra red neuronal."}
+{"prompt": "¿Qué es una función de coste?", "chosen": "Es una función que mide el error del modelo.", "rejected": "Es una función que elimina datos incorrectos."}
+{"prompt": "Define aprendizaje supervisado.", "chosen": "Es entrenar modelos con datos etiquetados.", "rejected": "Es entrenar modelos sin etiquetas."}
+{"prompt": "¿Qué es aprendizaje no supervisado?", "chosen": "Es entrenar modelos sin etiquetas para encontrar patrones.", "rejected": "Es entrenar modelos con etiquetas obligatorias."}
+{"prompt": "Explica qué es aprendizaje semisupervisado.", "chosen": "Combina datos etiquetados y no etiquetados para entrenar modelos.", "rejected": "Es entrenar modelos solo con datos incompletos."}
+{"prompt": "¿Qué es aprendizaje autosupervisado?", "chosen": "Es un método donde el modelo genera sus propias etiquetas a partir de los datos.", "rejected": "Es un método donde el modelo no usa etiquetas en absoluto."}
+{"prompt": "Define embeddings contextuales.", "chosen": "Son vectores que dependen del contexto de la frase.", "rejected": "Son vectores fijos que no cambian según el contexto."}
+{"prompt": "¿Qué es un modelo bidireccional?", "chosen": "Es un modelo que procesa texto en ambas direcciones.", "rejected": "Es un modelo que solo procesa texto hacia adelante."}
+{"prompt": "Explica qué es un modelo autoregresivo de lenguaje.", "chosen": "Genera texto prediciendo el siguiente token basado en los anteriores.", "rejected": "Genera texto prediciendo todos los tokens simultáneamente."}
+{"prompt": "¿Qué es un modelo de atención multi-cabeza?", "chosen": "Divide la atención en varias cabezas para capturar diferentes relaciones.", "rejected": "Es una capa que duplica tokens para mejorar precisión."}
+{"prompt": "Define máscara causal.", "chosen": "Evita que el modelo vea tokens futuros durante la generación.", "rejected": "Evita que el modelo vea tokens anteriores."}
+{"prompt": "¿Qué es un modelo de clasificación binaria?", "chosen": "Es un modelo que asigna una de dos etiquetas posibles.", "rejected": "Es un modelo que asigna múltiples etiquetas siempre."}
+{"prompt": "Explica qué es un modelo de regresión logística.", "chosen": "Predice probabilidades para clasificación binaria.", "rejected": "Predice valores continuos sin probabilidades."}
+{"prompt": "¿Qué es un modelo de regresión lineal?", "chosen": "Predice valores continuos usando una relación lineal.", "rejected": "Clasifica datos en categorías."}
+{"prompt": "Define regularización L1.", "chosen": "Penaliza la suma de valores absolutos de los pesos.", "rejected": "Penaliza la suma de los cuadrados de los pesos."}
+{"prompt": "¿Qué es regularización L2?", "chosen": "Penaliza la suma de los cuadrados de los pesos.", "rejected": "Penaliza la suma de los valores absolutos de los pesos."}
+{"prompt": "Explica qué es early stopping.", "chosen": "Detiene el entrenamiento cuando el modelo deja de mejorar.", "rejected": "Detiene el entrenamiento cuando el modelo empieza a aprender."}
+{"prompt": "¿Qué es validación cruzada?", "chosen": "Es dividir los datos en múltiples partes para evaluar el modelo.", "rejected": "Es entrenar el modelo varias veces con los mismos datos."}
+{"prompt": "Define hiperparámetro de aprendizaje.", "chosen": "Es un valor que controla la velocidad de actualización de los pesos.", "rejected": "Es un valor que el modelo aprende automáticamente."}
+{"prompt": "¿Qué es un modelo generativo de texto?", "chosen": "Es un modelo que produce texto token por token.", "rejected": "Es un modelo que solo clasifica palabras."}
+{"prompt": "Explica qué es un modelo de completado de código.", "chosen": "Es un modelo que predice cómo continuar fragmentos de código.", "rejected": "Es un modelo que corrige errores de sintaxis automáticamente."}
+{"prompt": "¿Qué es un modelo de diálogo?", "chosen": "Es un modelo entrenado para mantener conversaciones coherentes.", "rejected": "Es un modelo que solo responde preguntas simples sin contexto."}

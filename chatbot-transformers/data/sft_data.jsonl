@@ -1,0 +1,201 @@
+{"prompt": "¿Qué es Python?", "response": "Python es un lenguaje de programación versátil y fácil de aprender."}
+{"prompt": "Explica qué es una red neuronal.", "response": "Una red neuronal es un modelo matemático inspirado en el cerebro humano."}
+{"prompt": "Dime un chiste corto.", "response": "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!"}
+{"prompt": "Define machine learning.", "response": "Machine learning es un campo que permite a los sistemas aprender patrones a partir de datos."}
+{"prompt": "¿Qué es una API?", "response": "Una API es una interfaz que permite que dos sistemas se comuniquen."}
+{"prompt": "Explica qué es un dataset.", "response": "Un dataset es un conjunto estructurado de datos utilizado para análisis o entrenamiento."}
+{"prompt": "¿Qué es un modelo de lenguaje?", "response": "Es un modelo entrenado para predecir y generar texto."}
+{"prompt": "Dame un consejo para estudiar.", "response": "Divide el contenido en partes pequeñas y estudia de forma constante."}
+{"prompt": "¿Qué es la inteligencia artificial?", "response": "La IA es la capacidad de las máquinas para realizar tareas que requieren inteligencia humana."}
+{"prompt": "Explica qué es un token en NLP.", "response": "Un token es una unidad mínima de texto, como una palabra o subpalabra."}
+{"prompt": "¿Qué es un modelo generativo?", "response": "Un modelo generativo produce nuevos datos basados en patrones aprendidos."}
+{"prompt": "Dime un dato curioso.", "response": "Los pulpos tienen tres corazones."}
+{"prompt": "Explica qué es overfitting.", "response": "Overfitting ocurre cuando un modelo aprende demasiado los datos de entrenamiento y falla en generalizar."}
+{"prompt": "¿Qué es un prompt?", "response": "Un prompt es la entrada que se le da a un modelo para generar una respuesta."}
+{"prompt": "Dime una frase motivadora.", "response": "Cada pequeño paso te acerca a tu objetivo."}
+{"prompt": "¿Qué es un embedding?", "response": "Es una representación numérica de palabras o frases."}
+{"prompt": "Explica qué es backpropagation.", "response": "Es el proceso de ajustar los pesos de una red neuronal calculando gradientes."}
+{"prompt": "¿Qué es un modelo supervisado?", "response": "Es un modelo entrenado con datos etiquetados."}
+{"prompt": "Dime un ejemplo de algoritmo de ML.", "response": "Random Forest es un algoritmo basado en múltiples árboles de decisión."}
+{"prompt": "¿Qué es un hiperparámetro?", "response": "Es un valor configurado antes del entrenamiento del modelo."}
+{"prompt": "Explica qué es regularización.", "response": "Es una técnica para evitar overfitting penalizando pesos grandes."}
+{"prompt": "¿Qué es un LLM?", "response": "Es un modelo de lenguaje de gran tamaño entrenado con enormes cantidades de texto."}
+{"prompt": "Dime un truco para programar mejor.", "response": "Divide los problemas en partes pequeñas y prueba cada componente."}
+{"prompt": "¿Qué es un dataset balanceado?", "response": "Es un dataset donde las clases tienen cantidades similares de ejemplos."}
+{"prompt": "Explica qué es un transformer.", "response": "Es una arquitectura basada en atención que procesa secuencias de forma eficiente."}
+{"prompt": "¿Qué es RLHF?", "response": "Es un método donde humanos dan retroalimentación para entrenar modelos con refuerzo."}
+{"prompt": "Dime un ejemplo de IA en la vida diaria.", "response": "Los sistemas de recomendación de Netflix usan IA."}
+{"prompt": "¿Qué es un modelo autoregresivo?", "response": "Genera texto prediciendo el siguiente token basado en los anteriores."}
+{"prompt": "Explica qué es fine-tuning.", "response": "Es ajustar un modelo preentrenado con datos específicos."}
+{"prompt": "¿Qué es un batch?", "response": "Es un conjunto de ejemplos procesados juntos durante el entrenamiento."}
+{"prompt": "Dime un ejemplo de mala práctica en ML.", "response": "Entrenar sin validar los resultados."}
+{"prompt": "¿Qué es un modelo no supervisado?", "response": "Es un modelo que aprende patrones sin etiquetas."}
+{"prompt": "Explica qué es un gradiente.", "response": "Es la dirección de cambio usada para actualizar los pesos."}
+{"prompt": "¿Qué es un tokenizador?", "response": "Es el componente que divide texto en tokens."}
+{"prompt": "Dime un ejemplo de arquitectura de red.", "response": "CNN es una arquitectura usada para imágenes."}
+{"prompt": "¿Qué es un modelo preentrenado?", "response": "Es un modelo entrenado previamente con grandes cantidades de datos."}
+{"prompt": "Explica qué es atención.", "response": "Es un mecanismo que permite al modelo enfocarse en partes relevantes de la entrada."}
+{"prompt": "¿Qué es un optimizador?", "response": "Es un algoritmo que ajusta los pesos del modelo."}
+{"prompt": "Dime un ejemplo de mala respuesta.", "response": "Una mala respuesta es aquella que no responde la pregunta."}
+{"prompt": "¿Qué es un modelo de clasificación?", "response": "Es un modelo que asigna etiquetas a los datos."}
+{"prompt": "Explica qué es un vector.", "response": "Es una lista ordenada de números."}
+{"prompt": "¿Qué es un modelo secuencial?", "response": "Es un modelo que procesa datos en orden."}
+{"prompt": "Dime un ejemplo de buen hábito de estudio.", "response": "Tomar descansos regulares mejora la retención."}
+{"prompt": "¿Qué es un modelo estadístico?", "response": "Es un modelo basado en distribuciones y probabilidades."}
+{"prompt": "Explica qué es un árbol de decisión.", "response": "Es un modelo que divide los datos en ramas basadas en condiciones."}
+{"prompt": "¿Qué es un modelo generativo adversarial?", "response": "Es un modelo con dos redes que compiten entre sí."}
+{"prompt": "Dime un ejemplo de error común en ML.", "response": "No dividir los datos en entrenamiento y prueba."}
+{"prompt": "¿Qué es un modelo estadístico simple?", "response": "Una regresión lineal es un modelo estadístico simple."}
+{"prompt": "Explica qué es un vector de características.", "response": "Es una representación numérica de los atributos de un dato."}
+{"prompt": "¿Qué es una variable en programación?", "response": "Una variable es un espacio en memoria donde se almacena un valor que puede cambiar durante la ejecución del programa."}
+{"prompt": "Explica qué es una función.", "response": "Una función es un bloque de código que realiza una tarea específica y puede reutilizarse en diferentes partes del programa."}
+{"prompt": "¿Qué es un bucle for?", "response": "Un bucle for permite repetir una acción un número determinado de veces, iterando sobre una secuencia o rango."}
+{"prompt": "Define condicional if.", "response": "El condicional if ejecuta un bloque de código solo si se cumple una condición lógica."}
+{"prompt": "¿Qué es una lista en Python?", "response": "Una lista es una colección ordenada y mutable de elementos que pueden ser de distintos tipos."}
+{"prompt": "Explica qué es un diccionario.", "response": "Un diccionario almacena pares clave-valor y permite acceder a los datos mediante sus claves."}
+{"prompt": "¿Qué es una clase?", "response": "Una clase es una plantilla que define atributos y métodos para crear objetos en programación orientada a objetos."}
+{"prompt": "Define objeto.", "response": "Un objeto es una instancia de una clase que contiene datos y comportamientos definidos por esa clase."}
+{"prompt": "¿Qué es herencia en programación?", "response": "La herencia permite crear nuevas clases basadas en otras, reutilizando y extendiendo su funcionalidad."}
+{"prompt": "Explica qué es encapsulación.", "response": "La encapsulación consiste en ocultar los detalles internos de una clase y exponer solo lo necesario."}
+{"prompt": "¿Qué es polimorfismo?", "response": "El polimorfismo permite que diferentes clases usen el mismo método con comportamientos distintos."}
+{"prompt": "Define algoritmo.", "response": "Un algoritmo es una secuencia de pasos ordenados para resolver un problema o realizar una tarea."}
+{"prompt": "¿Qué es un IDE?", "response": "Un IDE es un entorno de desarrollo integrado que facilita escribir, ejecutar y depurar código."}
+{"prompt": "Explica qué es depuración.", "response": "La depuración es el proceso de identificar y corregir errores en el código."}
+{"prompt": "¿Qué es una excepción?", "response": "Una excepción es un evento que interrumpe el flujo normal del programa y puede manejarse para evitar errores."}
+{"prompt": "Define try-except.", "response": "El bloque try-except permite capturar y manejar excepciones sin detener la ejecución del programa."}
+{"prompt": "¿Qué es un módulo en Python?", "response": "Un módulo es un archivo que contiene código reutilizable, como funciones o clases, que puede importarse en otros programas."}
+{"prompt": "Explica qué es una librería.", "response": "Una librería es un conjunto de módulos que proporcionan funcionalidades adicionales al lenguaje base."}
+{"prompt": "¿Qué es NumPy?", "response": "NumPy es una librería de Python para cálculos numéricos y manejo eficiente de arreglos multidimensionales."}
+{"prompt": "Define Pandas.", "response": "Pandas es una librería para análisis y manipulación de datos estructurados en Python."}
+{"prompt": "¿Qué es Matplotlib?", "response": "Matplotlib es una librería para crear gráficos y visualizaciones en Python."}
+{"prompt": "Explica qué es Seaborn.", "response": "Seaborn es una librería basada en Matplotlib que facilita la creación de gráficos estadísticos atractivos."}
+{"prompt": "¿Qué es Scikit-learn?", "response": "Scikit-learn es una librería de Python para construir y evaluar modelos de machine learning."}
+{"prompt": "Define modelo de regresión.", "response": "Un modelo de regresión predice valores continuos basándose en relaciones entre variables."}
+{"prompt": "¿Qué es clasificación?", "response": "La clasificación asigna etiquetas a datos según patrones aprendidos por el modelo."}
+{"prompt": "Explica qué es clustering.", "response": "El clustering agrupa datos similares sin necesidad de etiquetas previas."}
+{"prompt": "¿Qué es K-Means?", "response": "K-Means es un algoritmo de clustering que agrupa datos según su proximidad a centroides."}
+{"prompt": "Define aprendizaje supervisado.", "response": "Es el tipo de aprendizaje donde el modelo se entrena con datos etiquetados."}
+{"prompt": "¿Qué es aprendizaje no supervisado?", "response": "Es el tipo de aprendizaje donde el modelo busca patrones sin etiquetas."}
+{"prompt": "Explica qué es aprendizaje por refuerzo.", "response": "Es un método donde un agente aprende tomando acciones y recibiendo recompensas según su desempeño."}
+{"prompt": "¿Qué es una red neuronal?", "response": "Es un modelo inspirado en el cerebro humano que aprende representaciones complejas de los datos."}
+{"prompt": "Define capa oculta.", "response": "Una capa oculta transforma la información entre la entrada y la salida de una red neuronal."}
+{"prompt": "¿Qué es una función de activación?", "response": "Una función de activación decide si una neurona se activa y qué valor transmite."}
+{"prompt": "Explica qué es ReLU.", "response": "ReLU devuelve cero para valores negativos y el valor original para positivos, acelerando el aprendizaje."}
+{"prompt": "¿Qué es una función sigmoide?", "response": "Convierte valores en un rango entre 0 y 1, útil para modelos de probabilidad."}
+{"prompt": "Define pérdida.", "response": "La pérdida mide qué tan lejos están las predicciones del modelo respecto a los valores reales."}
+{"prompt": "¿Qué es optimización?", "response": "Optimización es el proceso de ajustar los parámetros del modelo para minimizar la pérdida."}
+{"prompt": "Explica qué es gradiente descendente.", "response": "Es un algoritmo que ajusta los pesos del modelo moviéndose en la dirección del menor error."}
+{"prompt": "¿Qué es un dataset?", "response": "Un dataset es un conjunto de datos usados para entrenar o evaluar modelos."}
+{"prompt": "Define conjunto de entrenamiento.", "response": "Es la parte del dataset usada para enseñar al modelo."}
+{"prompt": "¿Qué es conjunto de validación?", "response": "Es la parte del dataset usada para ajustar hiperparámetros y evitar sobreajuste."}
+{"prompt": "Explica qué es conjunto de prueba.", "response": "Es la parte del dataset usada para evaluar el rendimiento final del modelo."}
+{"prompt": "¿Qué es sobreajuste?", "response": "Es cuando el modelo aprende demasiado los datos de entrenamiento y falla en generalizar."}
+{"prompt": "Define regularización.", "response": "Regularización agrega penalizaciones para evitar que el modelo se ajuste en exceso a los datos."}
+{"prompt": "¿Qué es dropout?", "response": "Dropout desactiva aleatoriamente neuronas durante el entrenamiento para mejorar la generalización."}
+{"prompt": "Explica qué es batch normalization.", "response": "Normaliza las activaciones dentro de una capa para estabilizar el entrenamiento."}
+{"prompt": "¿Qué es un modelo preentrenado?", "response": "Es un modelo que ya ha sido entrenado con grandes cantidades de datos y puede ajustarse a tareas específicas."}
+{"prompt": "Define fine-tuning.", "response": "Fine-tuning es ajustar un modelo preentrenado con datos específicos para una tarea concreta."}
+{"prompt": "¿Qué es un embedding?", "response": "Es una representación numérica que captura el significado de palabras o elementos."}
+{"prompt": "¿Qué es una API?", "response": "Una API es una interfaz que permite que dos aplicaciones se comuniquen entre sí mediante reglas definidas."}
+{"prompt": "Explica qué es una API REST.", "response": "Una API REST sigue principios como recursos, métodos HTTP y respuestas en formato JSON para facilitar la comunicación entre sistemas."}
+{"prompt": "¿Qué es JSON?", "response": "JSON es un formato ligero de intercambio de datos basado en texto, fácil de leer y escribir."}
+{"prompt": "Define endpoint.", "response": "Un endpoint es una URL específica dentro de una API donde se accede a un recurso o funcionalidad."}
+{"prompt": "¿Qué es HTTP?", "response": "HTTP es un protocolo que define cómo se envían y reciben datos en la web."}
+{"prompt": "Explica qué es un método GET.", "response": "GET es un método HTTP usado para solicitar datos de un servidor sin modificar recursos."}
+{"prompt": "¿Qué es un método POST?", "response": "POST envía datos al servidor para crear o procesar información nueva."}
+{"prompt": "Define método PUT.", "response": "PUT actualiza completamente un recurso existente en el servidor."}
+{"prompt": "¿Qué es método DELETE?", "response": "DELETE elimina un recurso específico del servidor."}
+{"prompt": "Explica qué es un servidor web.", "response": "Un servidor web es un sistema que recibe solicitudes HTTP y devuelve respuestas, como páginas o datos."}
+{"prompt": "¿Qué es Flask?", "response": "Flask es un microframework de Python para crear aplicaciones web de forma sencilla y flexible."}
+{"prompt": "Define ruta en Flask.", "response": "Una ruta es una URL asociada a una función que se ejecuta cuando el usuario accede a ella."}
+{"prompt": "¿Qué es FastAPI?", "response": "FastAPI es un framework moderno y rápido para construir APIs con Python usando tipado y validación automática."}
+{"prompt": "Explica qué es un servidor local.", "response": "Un servidor local es un entorno de ejecución que funciona en tu propio equipo para pruebas y desarrollo."}
+{"prompt": "¿Qué es un puerto en redes?", "response": "Un puerto es un canal lógico que permite que aplicaciones se comuniquen a través de una red."}
+{"prompt": "Define IP.", "response": "Una dirección IP identifica de forma única un dispositivo dentro de una red."}
+{"prompt": "¿Qué es un archivo CSV?", "response": "Un archivo CSV almacena datos en formato de texto separados por comas, ideal para tablas simples."}
+{"prompt": "Explica qué es un archivo TXT.", "response": "Un archivo TXT contiene texto plano sin formato especial."}
+{"prompt": "¿Qué es un archivo JSONL?", "response": "JSONL es un formato donde cada línea contiene un objeto JSON independiente, útil para datasets grandes."}
+{"prompt": "Define dataset SFT.", "response": "Un dataset SFT contiene pares de pregunta-respuesta usados para entrenar modelos mediante aprendizaje supervisado."}
+{"prompt": "¿Qué es un dataset DPO?", "response": "Un dataset DPO contiene pares de respuestas buenas y malas para ajustar preferencias del modelo."}
+{"prompt": "Explica qué es un reward model.", "response": "Un reward model evalúa respuestas y asigna puntuaciones para guiar el entrenamiento del modelo principal."}
+{"prompt": "¿Qué es RLHF?", "response": "RLHF es un proceso donde se entrena un modelo usando retroalimentación humana para mejorar la calidad de sus respuestas."}
+{"prompt": "Define token.", "response": "Un token es una unidad mínima de texto que el modelo procesa, como palabras o fragmentos de palabras."}
+{"prompt": "¿Qué es un modelo causal?", "response": "Un modelo causal genera texto prediciendo el siguiente token basándose en los anteriores."}
+{"prompt": "Explica qué es un modelo autoregresivo.", "response": "Un modelo autoregresivo genera secuencias paso a paso, usando su propia salida como entrada siguiente."}
+{"prompt": "¿Qué es un modelo encoder-decoder?", "response": "Es una arquitectura donde el encoder procesa la entrada y el decoder genera la salida basada en esa representación."}
+{"prompt": "Define transformer.", "response": "Transformer es una arquitectura basada en mecanismos de atención que permite procesar secuencias de forma eficiente."}
+{"prompt": "¿Qué es atención?", "response": "La atención permite que el modelo enfoque partes relevantes de la entrada para generar mejores predicciones."}
+{"prompt": "Explica qué es multi-head attention.", "response": "Multi-head attention divide la atención en varias cabezas para capturar diferentes relaciones en el texto."}
+{"prompt": "¿Qué es un embedding contextual?", "response": "Es una representación que cambia según el contexto donde aparece la palabra."}
+{"prompt": "Define vocabulario del modelo.", "response": "El vocabulario es el conjunto de tokens que el modelo puede reconocer y generar."}
+{"prompt": "¿Qué es un checkpoint?", "response": "Un checkpoint es una copia del estado del modelo durante el entrenamiento para poder retomarlo o evaluarlo."}
+{"prompt": "Explica qué es un optimizador.", "response": "Un optimizador ajusta los pesos del modelo para reducir la pérdida durante el entrenamiento."}
+{"prompt": "¿Qué es Adam?", "response": "Adam es un optimizador que combina momentum y adaptación de tasa de aprendizaje para entrenar modelos más rápido."}
+{"prompt": "Define tasa de aprendizaje.", "response": "Es el valor que controla cuánto se ajustan los pesos del modelo en cada actualización."}
+{"prompt": "¿Qué es un batch?", "response": "Un batch es un conjunto de ejemplos procesados juntos durante una iteración del entrenamiento."}
+{"prompt": "Explica qué es epoch.", "response": "Un epoch es una pasada completa del modelo por todos los datos de entrenamiento."}
+{"prompt": "¿Qué es pérdida cruzada?", "response": "La pérdida cruzada mide la diferencia entre las predicciones del modelo y las etiquetas reales en clasificación."}
+{"prompt": "Define logits.", "response": "Los logits son los valores sin normalizar que el modelo produce antes de aplicar softmax."}
+{"prompt": "¿Qué es softmax?", "response": "Softmax convierte logits en probabilidades que suman uno."}
+{"prompt": "Explica qué es un modelo pequeño.", "response": "Un modelo pequeño tiene menos parámetros y requiere menos recursos, pero puede ser menos estable en tareas complejas."}
+{"prompt": "¿Qué es un modelo grande?", "response": "Un modelo grande tiene muchos parámetros y puede aprender patrones complejos con mayor precisión."}
+{"prompt": "Define fine-tuning supervisado.", "response": "Es ajustar un modelo preentrenado usando ejemplos etiquetados para una tarea específica."}
+{"prompt": "¿Qué es un prompt?", "response": "Un prompt es el texto que se le da al modelo para guiar la generación de la respuesta."}
+{"prompt": "Explica qué es un sistema prompt.", "response": "Es un mensaje inicial que define el comportamiento, estilo y reglas del modelo durante la conversación."}
+{"prompt": "¿Qué es truncación?", "response": "Truncación corta el texto cuando supera un límite de tokens para evitar desbordes."}
+{"prompt": "Define generación determinista.", "response": "La generación determinista produce siempre la misma salida para la misma entrada, sin aleatoriedad."}
+{"prompt": "¿Qué es sampling?", "response": "Sampling introduce aleatoriedad en la generación para producir respuestas variadas."}
+{"prompt": "Explica qué es top-p.", "response": "Top-p limita la generación a los tokens más probables cuya suma de probabilidades alcanza un umbral p."}
+{"prompt": "¿Qué es temperatura?", "response": "La temperatura controla la aleatoriedad: valores bajos hacen la salida más precisa y valores altos más creativa."}
+{"prompt": "¿Qué es un modelo generativo?", "response": "Un modelo generativo aprende la distribución de los datos y puede crear nuevos ejemplos similares a los originales."}
+{"prompt": "Explica qué es un modelo discriminativo.", "response": "Un modelo discriminativo aprende a distinguir entre clases y se enfoca en la frontera de decisión."}
+{"prompt": "¿Qué es un LLM?", "response": "Un LLM es un modelo de lenguaje grande capaz de generar texto coherente y realizar tareas complejas de lenguaje natural."}
+{"prompt": "Define parámetro del modelo.", "response": "Un parámetro es un valor interno del modelo que se ajusta durante el entrenamiento para mejorar las predicciones."}
+{"prompt": "¿Qué es un hiperparámetro?", "response": "Un hiperparámetro controla el proceso de entrenamiento, como la tasa de aprendizaje o el tamaño del batch."}
+{"prompt": "Explica qué es un tokenizer.", "response": "Un tokenizer convierte texto en tokens para que el modelo pueda procesarlo."}
+{"prompt": "¿Qué es un token especial?", "response": "Un token especial indica funciones específicas como inicio, fin o separación de secuencias."}
+{"prompt": "Define EOS token.", "response": "El token EOS marca el final de una secuencia generada por el modelo."}
+{"prompt": "¿Qué es un dataset de preferencias?", "response": "Es un conjunto de pares donde se indica qué respuesta es mejor y cuál es peor para entrenar modelos con DPO."}
+{"prompt": "Explica qué es un reward score.", "response": "Es una puntuación asignada por un reward model para indicar la calidad de una respuesta."}
+{"prompt": "¿Qué es un modelo roto?", "response": "Un modelo roto es aquel que genera texto incoherente debido a un entrenamiento incorrecto o desbalanceado."}
+{"prompt": "Define estabilidad del modelo.", "response": "La estabilidad del modelo se refiere a su capacidad de generar respuestas coherentes sin repeticiones ni ruido."}
+{"prompt": "¿Qué es un pipeline de entrenamiento?", "response": "Es una secuencia de pasos organizados para entrenar un modelo, como SFT, reward y DPO."}
+{"prompt": "Explica qué es un dataset balanceado.", "response": "Un dataset balanceado contiene suficientes ejemplos variados para evitar que el modelo aprenda patrones incorrectos."}
+{"prompt": "¿Qué es un modelo pequeño?", "response": "Un modelo pequeño tiene pocos parámetros y puede ser más frágil durante el entrenamiento."}
+{"prompt": "Define modelo robusto.", "response": "Un modelo robusto mantiene coherencia incluso cuando recibe entradas inesperadas o complejas."}
+{"prompt": "¿Qué es un script de entrenamiento?", "response": "Es un archivo que contiene el código necesario para entrenar un modelo con un dataset específico."}
+{"prompt": "Explica qué es un checkpoint corrupto.", "response": "Es un archivo de modelo dañado que genera errores o comportamientos incoherentes al cargarlo."}
+{"prompt": "¿Qué es un modelo base?", "response": "Es el modelo preentrenado inicial que se usa antes de aplicar SFT, reward o DPO."}
+{"prompt": "Define entrenamiento supervisado.", "response": "Es un entrenamiento donde el modelo aprende a partir de ejemplos con respuestas correctas."}
+{"prompt": "¿Qué es un dataset de entrenamiento?", "response": "Es el conjunto de datos que se usa para enseñar al modelo durante el proceso de aprendizaje."}
+{"prompt": "Explica qué es un dataset de validación.", "response": "Es el conjunto de datos usado para ajustar hiperparámetros y evitar sobreajuste."}
+{"prompt": "¿Qué es un dataset de prueba?", "response": "Es el conjunto de datos usado para evaluar el rendimiento final del modelo."}
+{"prompt": "Define ruido en el modelo.", "response": "El ruido es texto incoherente o repetitivo generado por un modelo mal entrenado."}
+{"prompt": "¿Qué es un modelo alineado?", "response": "Un modelo alineado genera respuestas útiles, claras y seguras según las preferencias definidas."}
+{"prompt": "Explica qué es un modelo desalineado.", "response": "Un modelo desalineado produce respuestas incorrectas, repetitivas o fuera de contexto."}
+{"prompt": "¿Qué es un dataset JSONL?", "response": "Es un archivo donde cada línea contiene un objeto JSON independiente, ideal para entrenamiento de modelos."}
+{"prompt": "Define estructura pregunta-respuesta.", "response": "Es un formato donde cada ejemplo contiene un prompt y una respuesta clara para entrenar modelos SFT."}
+{"prompt": "¿Qué es un modelo autoregresivo?", "response": "Es un modelo que genera texto prediciendo el siguiente token basándose en los anteriores."}
+{"prompt": "Explica qué es un modelo causal.", "response": "Un modelo causal genera texto en una dirección, sin mirar tokens futuros."}
+{"prompt": "¿Qué es un modelo encoder-only?", "response": "Es un modelo que solo procesa entradas y no genera texto, usado en tareas de clasificación."}
+{"prompt": "Define modelo decoder-only.", "response": "Es un modelo que genera texto token por token, como los LLM modernos."}
+{"prompt": "¿Qué es un embedding de palabra?", "response": "Es una representación numérica que captura el significado de una palabra en un espacio vectorial."}
+{"prompt": "Explica qué es un embedding de frase.", "response": "Es una representación que captura el significado global de una oración completa."}
+{"prompt": "¿Qué es un vector?", "response": "Un vector es una lista de números que representa información en modelos de machine learning."}
+{"prompt": "Define espacio vectorial.", "response": "Es un entorno matemático donde los vectores pueden sumarse, restarse y transformarse."}
+{"prompt": "¿Qué es una matriz?", "response": "Una matriz es una estructura de datos bidimensional usada en cálculos numéricos y redes neuronales."}
+{"prompt": "Explica qué es una operación matricial.", "response": "Es una operación como multiplicación o suma aplicada a matrices para transformar datos."}
+{"prompt": "¿Qué es un gradiente?", "response": "Es la dirección de mayor cambio en la pérdida, usado para ajustar los pesos del modelo."}
+{"prompt": "Define retropropagación.", "response": "Es el proceso que calcula gradientes y ajusta los pesos del modelo durante el entrenamiento."}
+{"prompt": "¿Qué es un modelo entrenado?", "response": "Es un modelo cuyos parámetros han sido ajustados para realizar una tarea específica."}
+{"prompt": "Explica qué es un modelo sin entrenar.", "response": "Es un modelo con pesos iniciales que aún no ha aprendido ninguna tarea."}
+{"prompt": "¿Qué es un dataset grande?", "response": "Es un dataset con muchos ejemplos que permite entrenar modelos más robustos."}
+{"prompt": "Define dataset pequeño.", "response": "Es un dataset con pocos ejemplos que puede causar sobreajuste o inestabilidad en el modelo."}
+{"prompt": "¿Qué es un modelo corrupto?", "response": "Es un modelo que genera texto repetitivo o incoherente debido a un entrenamiento incorrecto."}
+{"prompt": "Explica qué es un modelo estable.", "response": "Es un modelo que genera respuestas coherentes y variadas sin caer en repeticiones."}
+{"prompt": "¿Qué es un modelo determinista?", "response": "Es un modelo que produce siempre la misma salida para la misma entrada."}
+{"prompt": "Define modelo estocástico.", "response": "Es un modelo que introduce aleatoriedad en la generación para producir respuestas variadas."}
+{"prompt": "¿Qué es un sistema de conversación?", "response": "Es un modelo diseñado para interactuar con usuarios mediante texto de forma coherente."}
+{"prompt": "Explica qué es un chatbot.", "response": "Un chatbot es un sistema que responde preguntas y mantiene conversaciones usando modelos de lenguaje."}
+{"prompt": "¿Qué es un modelo local?", "response": "Es un modelo que se ejecuta en tu propio equipo sin depender de servicios externos."}
+{"prompt": "Define modelo remoto.", "response": "Es un modelo alojado en servidores externos y accesible mediante API."}

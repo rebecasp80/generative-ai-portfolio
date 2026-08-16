@@ -1,0 +1,7 @@
+flask
+groq
+transformers
+torch
+trl
+peft
+datasets
