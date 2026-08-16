@@ -1,43 +1,62 @@
-# 🤖 Chatbot Transformers — Modelo Local Entrenado (GPT‑Neo‑125M + SFT + DPO)
+# 🤖 Chatbot Transformers — Modelo Local Entrenado (GPT‑Neo‑125M + SFT)
 
-Este proyecto implementa un chatbot moderno utilizando un modelo de lenguaje entrenado localmente con SFT + Reward Model + DPO, basado en GPT‑Neo‑125M.
+Este proyecto implementa un chatbot moderno utilizando un modelo de lenguaje GPT‑Neo‑125M entrenado localmente con **Supervised Fine‑Tuning (SFT)** y un **chatbot que responde exclusivamente con las respuestas del dataset SFT**, sin usar APIs externas.
 
-Incluye un chatbot por consola y un pipeline completo de entrenamiento.
+Incluye:
+- un chatbot por consola
+- una interfaz web moderna en Flask (modo oscuro)
+- el pipeline básico de entrenamiento SFT
 
 ---
 
 ## 🚀 Características principales
 
-- **Modelo local GPT‑Neo‑125M fine‑tuned con SFT + DPO**  
-
-- **Entrenamiento completo RLHF (SFT → Reward → DPO)**  
+- **Modelo local GPT‑Neo‑125M fine‑tuned con SFT** 
   
 - **Chatbot por consola (chatbot_pipeline.py)**  
 
-- **Dataset ampliado con 200 ejemplos DPO**  
+- **Interfaz web Flask en modo oscuro (`app.py`)**
 
-- **Arquitectura totalmente offline (sin API externa)**
+- **Respuestas basadas únicamente en el dataset SFT (`sft_data.jsonl`)**  
+
+- **Arquitectura totalmente offline (sin API externa)**  
+
+> Nota: Aunque existen scripts relacionados con reward/DPO en la carpeta `training/`, la versión actual del proyecto **no utiliza DPO ni reward model en producción**. El chatbot funciona en modo **SFT puro + recuperación de respuestas del dataset**.
 
 ---
 
 ## 📁 Estructura del proyecto
 
 chatbot-transformers/
+
 │
+
 ├── training/
-│   ├── sft_trainer.py
-│   ├── reward_trainer.py
-│   ├── dpo_trainer.py
-│   ├── dpo_model_neo/        # Modelo entrenado (GPT‑Neo‑125M fine‑tuned)
-│   └── dataset_loader.py
+
+│   ├── sft_trainer.py        # Entrenamiento SFT del modelo GPT‑Neo‑125M
+
+│   ├── reward_trainer.py     # (Opcional / experimental, no usado en la versión actual)
+
+│   ├── dpo_trainer.py        # (Opcional / experimental, no usado en la versión actual)
+
+│   └── dataset_loader.py     # Utilidades para cargar datasets
+
 │
+
 ├── data/
-│   ├── sft.jsonl             # Dataset SFT
-│   ├── preferences.jsonl     # Dataset DPO ampliado (200 ejemplos)
-│   └── reward.jsonl          # Dataset del reward model
+
+│   ├── sft_data.jsonl        # Dataset SFT (pares pregunta–respuesta)
+
+│   └── preferences.jsonl     # (Opcional / experimental)
+
 │
-├── chatbot_pipeline.py        # Chatbot por consola
-│
+
+├── chatbot_pipeline.py       # Lógica del chatbot (modo SFT puro, usa sft_data.jsonl)
+
+├── app.py                    # Interfaz web Flask en modo oscuro
+
+├── requirements.txt
+
 └── README.md
 
 ---
@@ -46,37 +65,53 @@ chatbot-transformers/
 
 Instala las dependencias dentro de tu entorno virtual:
 
-pip install transformers torch datasets
+pip install transformers torch datasets flask
 
 ---
 
 ## ▶️ Ejecutar el chatbot
 
-Desde la carpeta chatbot-transformers
+Desde la carpeta chatbot-transformers:
 
-Entrenar el modelo:
-
-python -m training.dpo_trainer
-
-Ejecutar el chatbot:
+- Chatbot por consola (modo SFT puro)
 
 python chatbot_pipeline.py
+
+- Interfaz web Flask (modo oscuro)
+
+python app.py
+
+- Luego abre en el navegador:
+
+http://127.0.0.1:5000
 
 ---
 
 ## 📌 Objetivo del proyecto
 
-Este módulo forma parte del repositorio Generative AI Apps, donde se construyen modelos de IA generativa entrenados desde cero con técnicas RLHF.
+Este módulo forma parte del repositorio Generative AI Apps, donde se construyen modelos de IA generativa entrenados localmente con SFT y se exploran técnicas RLHF de forma experimental, manteniendo siempre una arquitectura offline y reproducible.
 
 ---
 
 ## 🧩 Instalación rápida
 
 git clone https://github.com/<tu_usuario>/chatbot-transformers.git
+
 cd chatbot-transformers
+
+
 python -m venv venv310
-source venv310/bin/activate  # o venv310\\Scripts\\activate en Windows
+
+# Windows
+venv310\Scripts\activate
+
+# Linux/Mac
+source venv310/bin/activate
+
+
 pip install -r requirements.txt
+
+
 python app.py
 
 
