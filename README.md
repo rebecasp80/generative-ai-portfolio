@@ -26,11 +26,10 @@ Asistente conversacional RAG que responde sobre documentos PDF privados utilizan
 
 `Python` · `Flask` · `LangChain` · `Groq` · `RAG` · `FAISS / VectorStores`
 
-### 4. 💬 Chatbot Transformers — Flask + Groq
+### 4. 💬 Chatbot Transformers — Modelo Local Entrenado (GPT-Neo-125M + SFT)
+Chatbot conversacional con arquitectura 100% offline basado en un modelo GPT-Neo-125M entrenado localmente mediante Supervised Fine-Tuning (SFT). Incluye pipeline de entrenamiento SFT, respuestas estructuradas por dataset, interfaz por consola y aplicación web Flask con modo oscuro.
 
-Chatbot conversacional avanzado con gestión de memoria contextual, persistencia de sesión y frontend estilo ChatGPT con modo oscuro. Impulsado por Llama 3.1 8B Instant.  
-
-`Python` · `Flask` · `Groq` · `Llama 3.1` · `HTML/CSS/JS`
+`Python` · `PyTorch` · `Hugging Face Transformers` · `SFT` · `Flask` · `HTML/CSS/JS`
 
 ### 5. 🎙️ Enterprise Meeting Companion
 
@@ -74,13 +73,13 @@ Traductor automático basado en una arquitectura Encoder-Decoder Recurrente (GRU
 
 | Capa | Tecnologías |
 | --- | --- |
-| **Modelos & LLMs** | BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
-| **Técnicas de IA & PEFT** | RAG · Fine-Tuning (LoRA, QLoRA 4-bit, Adapters) · Prompt Engineering · Quantization |
+| **Modelos & LLMs** | GPT-Neo-125M · BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
+| **Técnicas de IA & Fine-Tuning** | Supervised Fine-Tuning (SFT) · PEFT (LoRA, QLoRA 4-bit, Adapters) · RAG · Quantization · Prompt Engineering |
 | **Frameworks de IA** | PyTorch · Hugging Face Transformers · PEFT · bitsandbytes · LangChain 1.x |
-| **Motores de Inferencia** | Groq LPU Accelerators · PyTorch Native Engine |
+| **Motores de Inferencia** | Groq LPU Accelerators · PyTorch Native Engine (Offline)|
 | **Backend & APIs** | Python 3.10+ · Flask · FastAPI · Gradio · REST APIs |
-| **Frontend & UI** | HTML5 · CSS3 (Glassmorphism) · JavaScript · Web Speech API |
-| **Calidad & Testing** | Unittest · Pylint (10/10) · Preprocesamiento NLP |
+| **Frontend & UI** | HTML5 · CSS3 (Glassmorphism & Dark Mode) · JavaScript · Web Speech API |
+| **Calidad & Testing** | Unittest · Pylint (10/10) · Preprocesamiento NLP & Tokenización |
 | **DevOps & Cloud** | Docker · Git & GitHub · IBM Cloud Code Engine |
 
 ---
