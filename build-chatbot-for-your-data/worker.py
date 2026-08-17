@@ -16,16 +16,17 @@ llm = None
 embeddings = None
 rag_chain = None
 
+
 def init_llm():
     global llm, embeddings
 
     groq_api_key = os.getenv("GROQ_API_KEY")
     if not groq_api_key:
-        raise ValueError("La variable de entorno GROQ_API_KEY no está configurada.")
+        raise ValueError("La variable GROQ_API_KEY no está configurada.")
 
     llm = ChatGroq(
-        model="llama-3.1-8b-instant",
-        temperature=0.1,
+        model="openai/gpt-oss-20b",
+        temperature=0.0,
         max_tokens=256,
         groq_api_key=groq_api_key
     )
@@ -33,6 +34,7 @@ def init_llm():
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
+
 
 def process_document(document_path):
     global rag_chain
@@ -51,18 +53,22 @@ def process_document(document_path):
 
     prompt = ChatPromptTemplate.from_template(
         """
-        Usa exclusivamente la información del documento para responder.
-        Pregunta: {question}
-        Contexto: {context}
+        Responde de forma breve y directa usando solo la información del documento.
+
+        Pregunta:
+        {question}
+
+        Contexto:
+        {context}
         """
     )
 
-    # LangChain 1.x usa Runnables
     rag_chain = (
         {"context": retriever, "question": RunnablePassthrough()}
         | prompt
         | llm
     )
+
 
 def process_prompt(prompt):
     global rag_chain
@@ -71,6 +77,7 @@ def process_prompt(prompt):
         return "Primero carga un PDF."
 
     response = rag_chain.invoke(prompt)
-    return response.content
+    return response.content.strip()
+
 
 init_llm()

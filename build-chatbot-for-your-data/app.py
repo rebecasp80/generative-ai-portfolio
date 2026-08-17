@@ -7,32 +7,34 @@ app = Flask(__name__)
 UPLOAD_FOLDER = "./uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+
 @app.route("/")
 def index():
     return render_template("index.html")
 
+
 @app.route("/upload", methods=["POST"])
 def upload_pdf():
-    try:
-        file = request.files.get("file")
-        if not file:
-            return jsonify({"error": "No se envió ningún archivo"}), 400
+    file = request.files.get("file")
+    if not file:
+        return jsonify({"error": "No se envió ningún archivo"}), 400
 
-        file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-        file.save(file_path)
+    file_path = os.path.join(UPLOAD_FOLDER, file.filename)
+    file.save(file_path)
 
-        process_document(file_path)
-        return jsonify({"message": "Documento procesado correctamente"})
-    except Exception as e:
-        print("Error al cargar PDF:", e)
-        return jsonify({"error": "Error al cargar el PDF"}), 500
+    process_document(file_path)
+    return jsonify({"message": "Documento procesado correctamente"})
+
 
 @app.route("/ask", methods=["POST"])
 def ask():
     data = request.get_json()
     prompt = data.get("prompt", "")
+
     answer = process_prompt(prompt)
+
     return jsonify({"answer": answer})
+
 
 if __name__ == "__main__":
     app.run(debug=True)
