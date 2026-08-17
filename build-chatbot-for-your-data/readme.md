@@ -1,6 +1,6 @@
 # 🤖 Chatbot Transformers — Flask + Groq + Interfaz Web
 
-Este proyecto implementa un chatbot moderno utilizando **Groq** como motor de IA, **Flask** como servidor backend y una **interfaz web personalizada** con modo oscuro, memoria de conversación y avatar profesional.
+Este proyecto implementa un chatbot inteligente basado en RAG (Retrieval Augmented Generation) utilizando Groq como motor de inferencia, Flask como backend y una interfaz web moderna con modo oscuro, avatar y experiencia tipo ChatGPT.
 
 Es parte del proyecto *Generative AI Apps*, donde se integran diferentes aplicaciones de IA generativa.
 
@@ -8,29 +8,39 @@ Es parte del proyecto *Generative AI Apps*, donde se integran diferentes aplicac
 
 ## 🚀 Características principales
 
-- **Modelo Groq (llama-3.1-8b-instant)**  
+- **Modelo de IA Groq**  
 
-  Respuestas rápidas, coherentes y con razonamiento real.
+  - Inferencia ultrarrápida.
 
-- **Servidor Flask**  
+  - Respuestas coherentes y precisas basadas en el contenido del documento cargado.
 
-  Maneja las rutas `/`, `/chatbot` y `/clear`.
+  - Integración mediante ChatGroq.
+
+- **Backend Flask**  
+
+  - Rutas simples y eficientes.
+
+  - Manejo de carga de documentos PDF.
+
+  - Procesamiento RAG con embeddings + FAISS.
 
 - **Interfaz web estilo ChatGPT**  
 
-  - Modo oscuro  
+  - Modo oscuro profesional.
 
-  - Avatar personalizado  
+  - Avatar tipo chatbot (icono 🤖).
 
-  - Burbujas de chat  
+  - Burbujas de conversación.
 
-  - Scroll automático  
+  - Scroll automático.
 
-  - Botón para borrar memoria  
+  - Envío rápido de mensajes.  
 
 - **Memoria de conversación**  
 
-  El chatbot recuerda el contexto hasta que el usuario decide borrarlo.
+  - El chatbot mantiene el contexto mientras la sesión está activa.
+
+  - Permite conversaciones fluidas sobre el documento cargado.
 
 ---
 
@@ -44,6 +54,10 @@ chatbot-transformers/
 
 │
 
+├── worker.py              # Pipeline RAG (PDF → Chunks → FAISS → Groq)
+
+│
+
 ├── templates/
 
 │   └── index.html         # Interfaz web del chatbot
@@ -52,9 +66,11 @@ chatbot-transformers/
 
 └── static/
 
-├── style.css          # Estilos (modo oscuro + diseño moderno)
-
-└── avatar.png         # Avatar del chatbot
+   ├── style.css          # Estilos (modo oscuro + diseño moderno)
+    
+   ├── script.js          # Lógica del frontend
+    
+   └── avatar.png         # Avatar del chatbot
 
 ---
 
@@ -62,21 +78,21 @@ chatbot-transformers/
 
 Instala las dependencias dentro de tu entorno virtual:
 
-pip install flask groq
+pip install flask groq langchain faiss-cpu sentence-transformers
 
 ---
 
 ## 🔑 Configuración de la API de Groq
 
-Edita app.py y coloca tu API Key:
+Crea un archivo .env en la raíz del proyecto:
 
-client = Groq("grok_api_key")
+Crea un archivo .env en la raíz del proyecto:
 
 ---
 
 ## ▶️ Ejecutar el chatbot
 
-Desde la carpeta chatbot-transformers
+Desde la carpeta del proyecto:
 
 python app.py
 
@@ -92,13 +108,13 @@ GET /
 
 Renderiza la interfaz web.
 
-POST /chatbot
+POST /upload
 
-Envía el mensaje del usuario y devuelve la respuesta del modelo.
+Carga un documento PDF y construye el índice FAISS.
 
-POST /clear
+POST /ask
 
-Borra la memoria de conversación.
+Envía una pregunta y devuelve la respuesta generada por Groq usando RAG.
 
 ---
 
@@ -106,33 +122,33 @@ Borra la memoria de conversación.
 
 La interfaz incluye:
 
-Modo oscuro
+- Modo oscuro
 
-Avatar del chatbot
+ Icono de usuario 🧑 y chatbot 🤖
 
-Burbujas de conversación
+- Burbujas de chat
 
-Botón para borrar memoria
+- Scroll automático
 
-Envío automático de mensajes
+- Envío rápido de mensajes
 
-Scroll automático
+- Diseño limpio y profesional
 
 ---
 
 ## 📌 Objetivo del proyecto
 
-Este módulo forma parte del repositorio Generative AI Apps, donde se construyen aplicaciones de IA generativa para tu portafolio profesional.
+Este módulo forma parte del repositorio Generative AI Apps, donde se construyen aplicaciones de IA generativa para mi portafolio profesional.
 
 ---
 
 ## 👩‍💻 Autora
 
-Proyecto desarrollado por Rebeca Soto como parte de su portafolio profesional de Ingeniería de IA generativa.
+Proyecto desarrollado por Rebeca Soto como parte de mi portafolio profesional de Ingeniería de IA generativa.
 
 Proyecto: Generative AI Apps  
 
-Tecnologías: Python, Flask, Groq, HTML/CSS, JavaScript
+Tecnologías: Python · Flask · Groq · LangChain · FAISS · HTML/CSS · JavaScriptt
 
 ---
 
