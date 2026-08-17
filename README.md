@@ -1,8 +1,8 @@
 # 🤖 Generative AI portfolio
 
-Colección profesional de 10 aplicaciones funcionales de IA Generativa, Procesamiento del Lenguaje Natural (NLP) y Deep Learning desarrolladas en Python.
+Colección profesional de **10 aplicaciones funcionales de IA Generativa, Procesamiento del Lenguaje Natural (NLP) y Deep Learning** desarrolladas en Python.
 
-El repositorio abarca desde el **fine-tuning eficiente de Transformers (PEFT/QLoRA)** y arquitecturas **Seq2Seq desde cero en PyTorch**, hasta **sistemas RAG** sobre documentos corporativos, **inspección visual**, **asistentes de voz multilingües** y **análisis de reuniones en tiempo real**.
+El repositorio abarca desde el entrenamiento local con Supervised Fine-Tuning (**SFT**) y **PEFT** (**LoRA**, **QLoRA 4-bit**) sobre Transformers, hasta arquitecturas **RAG corporativas**, traducción **Seq2Seq** desde cero en PyTorch, visión por computador, asistentes de voz multilingües y análisis de reuniones en tiempo real.
 
 ---
 
@@ -22,7 +22,7 @@ Traductor de voz multilingüe en tiempo real con detección automática de idiom
 
 ### 3. 📄 Chatbot RAG para PDFs (`build-chatbot-for-your-data`)
 
-Asistente conversacional RAG que responde sobre documentos PDF privados utilizando embeddings vectoriales, LangChain y Groq como motor de inferencia ultra-rápido.  
+Asistente conversacional RAG que responde sobre documentos PDF privados utilizando embeddings vectoriales, LangChain y Groq como motor de inferencia ultra-rápido. 
 
 `Python` · `Flask` · `LangChain` · `Groq` · `RAG` · `FAISS / VectorStores`
 
@@ -73,10 +73,10 @@ Traductor automático basado en una arquitectura Encoder-Decoder Recurrente (GRU
 
 | Capa | Tecnologías |
 | --- | --- |
-| **Modelos & LLMs** | GPT-Neo-125M · BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
+| **Modelos & LLMs** | GPT-Neo · BERT · Llama 3.1 · BLIP · Whisper · Sentence Transformers · VGG16 · GRU (Seq2Seq) |
 | **Técnicas de IA & Fine-Tuning** | Supervised Fine-Tuning (SFT) · PEFT (LoRA, QLoRA 4-bit, Adapters) · RAG · Quantization · Prompt Engineering |
-| **Frameworks de IA** | PyTorch · Hugging Face Transformers · PEFT · bitsandbytes · LangChain 1.x |
-| **Motores de Inferencia** | Groq LPU Accelerators · PyTorch Native Engine (Offline)|
+| **Frameworks de IA** | PyTorch · Hugging Face Transformers · PEFT · bitsandbytes · LangChain 1.x · FAISS |
+| **Motores de Inferencia** | Groq LPU Accelerators · PyTorch Native Engine |
 | **Backend & APIs** | Python 3.10+ · Flask · FastAPI · Gradio · REST APIs |
 | **Frontend & UI** | HTML5 · CSS3 (Glassmorphism & Dark Mode) · JavaScript · Web Speech API |
 | **Calidad & Testing** | Unittest · Pylint (10/10) · Preprocesamiento NLP & Tokenización |
